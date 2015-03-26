@@ -24,7 +24,7 @@ header {
 }
 h2{
 
-  
+
 }
 body{
 
@@ -63,11 +63,11 @@ img.pictures{
 }
 
 #column2{
-  height:779px;
-  width: 991px;
+  height: 779px;
+  width: 966px;
   background-color: rgba(158, 158, 161, 0.3);
   position: relative;
-  float: right;
+  float: left;
   margin: 2px;
   top: 369px;
   border-style: ridge;
