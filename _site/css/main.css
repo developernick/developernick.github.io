@@ -16,7 +16,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: rgba(108, 113, 113, 0.42);
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -175,7 +175,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #fdfdfd;
+      background-color: rgba(108, 113, 113, 0.42);
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }

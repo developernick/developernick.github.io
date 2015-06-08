@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome portfolio</title>
+    <title>Nickolas Selesky</title>
     <description>Write an awesome description for your portfolio here!
 </description>
-    <link>https://you.github.io/</link>
-    <atom:link href="https://you.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jun 2015 11:41:33 -0500</pubDate>
-    <lastBuildDate>Fri, 05 Jun 2015 11:41:33 -0500</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-
+    <link>https://developernick.github.io/</link>
+    <atom:link href="https://developernick.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 Jun 2015 02:46:39 -0500</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2015 02:46:39 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
       <item>
-        <title>Your portfolio</title>
-        <description>&lt;h2 id=&quot;welcome-to-your-portfolio&quot;&gt;Welcome to your portfolio!&lt;/h2&gt;
+        <title>My portfolio</title>
+        <description>&lt;h2 id=&quot;welcome-to-my-portfolio&quot;&gt;Welcome to my portfolio!&lt;/h2&gt;
 
 &lt;p&gt;Add some &lt;em&gt;content&lt;/em&gt; and &lt;strong&gt;awesomeness&lt;/strong&gt; using &lt;code&gt;markdown&lt;/code&gt;!&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://you.github.io/portfolio/update/2015/06/05/portfolio.html</link>
-        <guid isPermaLink="true">https://you.github.io/portfolio/update/2015/06/05/portfolio.html</guid>
-
-
+        <link>https://developernick.github.io/portfolio/update/2015/06/05/portfolio.html</link>
+        <guid isPermaLink="true">https://developernick.github.io/portfolio/update/2015/06/05/portfolio.html</guid>
+        
+        
         <category>portfolio</category>
-
+        
         <category>update</category>
-
+        
       </item>
-
+    
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>VisualizeIt</title>
+        <description>&lt;p&gt;&lt;strong&gt;Technologies used:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visual- D3, SVG, Html/CSS,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Javascript, Ruby, JQuery, for functionality&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Web Audio API to capture, sample, and transduce sound into data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ruby, Postgresql, and Sinatra for the back-end&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Screenshots:&lt;/strong&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/images/VisualizeIt_one&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/images/VisualizeIt_two&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://you.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://you.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
-
-
+        <link>https://developernick.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://developernick.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
+        
+        
         <category>jekyll</category>
-
+        
         <category>update</category>
-
+        
       </item>
-
+    
   </channel>
 </rss>
