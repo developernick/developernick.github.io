@@ -1,0 +1,12 @@
+# Site settings
+title: Your awesome portfolio
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your portfolio here!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://you.github.io" # the base hostname & protocol for your site
+twitter_username: youontwitter
+github_username:  youongithub
+
+# Build settings
+markdown: kramdown
