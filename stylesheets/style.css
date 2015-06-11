@@ -1,0 +1,9 @@
+body{
+	padding:30px;
+	background-color: rgb(74, 84, 84);
+}
+
+.container{
+	color: rgba(232, 230, 230, 0.75);
+	/*border: 2px dashed grey;*/
+}
