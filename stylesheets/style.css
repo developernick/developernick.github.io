@@ -1,9 +1,73 @@
 body{
-	padding:30px;
+	/*padding:20px;*/
 	background-color: rgb(74, 84, 84);
+	background: url(images/13.jpg) 100% 0 fixed;
 }
-
+.page-header{
+	padding:10px 0 50px;
+}
+.pic{
+	position: relative;
+	float: right;
+	width: 150px;
+	height: 150px;
+	border-radius: 360px;
+	background-color: white;
+	opacity: 0.8;
+}
 .container{
 	color: rgba(232, 230, 230, 0.75);
 	/*border: 2px dashed grey;*/
+}
+.text{
+	background-color: rgba(74, 84, 84, 0.6);
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.title{
+	padding-bottom: 30px;
+	font-size: 80px;
+}
+#header{
+	background: url(images/13.jpg) 50% 20% fixed;
+	bacground
+	height: auto;
+	margin: 0 auto;
+	  width: 100%;
+	  position: relative;
+	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  padding: 0px 0px 100px;
+
+}
+#aboutme{
+	background: url(images/MichAveSouth.jpg) 70% 20% fixed;
+	height: 75%;
+	margin: 0 auto;
+		width: 100%;
+		position: relative;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		padding: 100px 0;
+
+}
+#work{
+	/*background: url(images/MichAveSouth.jpg) 50% 0 fixed;*/
+	height: auto;
+	margin: 0 auto;
+		width: 100%;
+		position: relative;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		padding: 100px 0;
+
+}
+#contact{
+	/*background: url(images/MichAveSouth.jpg) 50% 0 fixed;*/
+	height: auto;
+	margin: 0 auto;
+		width: 100%;
+		position: relative;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		padding: 100px 0;
+
 }
