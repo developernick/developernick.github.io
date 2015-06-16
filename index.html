@@ -8,7 +8,7 @@
 		<meta name="author" content="Nick Selesky">
 
 		<title>DeveloperNick Web Development</title>
-
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,400|Playfair+Display|Libre+Baskerville|Unica+One|Fjalla+One|Montserrat:400,700|Raleway:400,100' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- _-_-_-_-_-_-_-_-_-_*****Bootstrap*****-_-_-_-_-_-_-_-_-_-_ -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
@@ -45,15 +45,15 @@
 
 	<div class="container-liquid">
 
-		<section id="header" data-speed="6" data-type="background">
+		<section id="header" data-speed="9" data-type="background">
 			<div class="container">
 				<header class="page-header col-md-12">
 					<div class="col-md-6">
 						<h1 class="row name">Nick Selesky</h1>
-						<p class="row lead">Full-Stack Web Developer</p>
+						<h1 class="row lead">Full-Stack Web Developer</h1>
 					</div>
-					<!-- <div class="pic col-md-6"></div> -->
 				</header><!-- end header -->
+				<div class="pic col-md-6"></div>
 			</div>
 		</section>
 
@@ -71,24 +71,35 @@
 		</section>
 		<div class="spacer"></div>
 
-		<section id="work" data-speed="4" data-type="background">
+		<section id="work" data-speed="6" data-type="background">
 			<div class="container">
 				<article class="col-md-12">
 					<h2 class="row title">Work</h2>
-						<div class="row">
+						<div class="row mywork">
 
-							<div class=" well">
-								<h2>Heading</h2>
-								<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id 	nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at 	eros. Praesent commodo cursus magna, vel scelerisque cursus nisl consectetur et.</p>
-								<p><a class="btn btn-success" href="#">View details &raquo;</a></p>
-							</div><!-- /.span4 -->
-							<div class=" well">
-								<h2>Heading</h2>
+							<div class="span4 well">
+								<h2>VisualizeIt</h2>
+								<div class="Vispic"></div>
+								<p>Using the Web Audio API, and D3 I created a visual representation of the soundwaves around your device. The Web Audio captures the sound input, turns the samples into the data that D3 renders fun designs to an SVG.</p>
+								<ol>
+									<li>Allow VisualizeIt to access your microphone</li>
+									<li>Turn on your favorite tunes</li>
+									<li>Party!!!</li>
+								</ol>
+								<div class="worklinks">
+									<p><a class="btn btn-success wrkbtn" href="http://visualize-it.herokuapp.com/"> VisualizeIt &raquo;</a></p>
+									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/VisualizeIt"> GitHub Repo &raquo;</a></p>
+								</div>
+							</div><!-- VisualizeIt end -->
+
+							<div class="well">
+								<h2>TriviaBase</h2>
 								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem 	nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus 	commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 								<p><a class="btn btn-success" href="#">View details &raquo;</a></p>
 							</div><!-- /.span4 -->
+
 							<div class="span4 well">
-								<h2>Heading</h2>
+								<h2>Chirper</h2>
 								<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. 	Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, 	tortor mauris condimentum nibh, ut fermentum odio, dapibus ac in, massa justo sit amet.</p>
 								<p><a class="btn btn-success" href="#">View details &raquo;</a></p>
 							</div><!-- /.span4 -->
@@ -103,13 +114,13 @@
 			<div class="container">
 				<article class="col-md-12">
 					<h2 class="row title">Contact</h2>
-					<div class="row text">
-						<h5>Is she dead, yes or no?</h5>
-						<p>Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'? </p>
-
-						<h5>Hold on to your butts</h5>
-						<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
-				</div>
+					<div class="row form">
+						<form action="//formspree.io/developernick.ninja@gmail.com" method="POST">
+							<input type="text" name="name" placeholder="Your Name"/>
+							<input type="text" name="_replyto" placeholder="Your Email"/>
+							<input class="btn" type="submit" value="Send">
+						</form>
+					</div>
 				</article>
 			</div>
 		</section>

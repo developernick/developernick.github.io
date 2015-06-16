@@ -1,8 +1,20 @@
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Unica One', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playfair Display', serif;
+*/
+
 body{
 	/*padding:20px;*/
 	background-color: rgb(74, 84, 84);
-	background: url(images/13.jpg) 100% 0 fixed;
+	background: url(images/13.jpg) 100% 25px fixed;
 }
+/*--- Nav Bar ---*/
 .navbar-brand{
 	font-size: 20px;
 }
@@ -13,22 +25,33 @@ body{
 .icons{
 	float: right;
 }
-
+/*--- ****Page**** ---*/
 .spacer{
 	width: 100%;
 	height: 15em;
 }
-.page-header{
-	padding:10px 0 ;
+/*--- Header ---*/
+.name{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 100px;
+	line-height: 1.1em;
+	margin: 0 auto;
+	/*float: left;*/
 }
-.pic{
-	position: relative;
-	float: right;
-	width: 150px;
-	height: 150px;
-	border-radius: 360px;
-	background-color: white;
-	opacity: 0.8;
+.lead{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 1.1em;
+	margin-left: 10px;
+	/*float: left;*/
+
+}
+.page-header{
+	padding:10px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 }
 .container{
 	color: rgba(232, 230, 230, 0.75);
@@ -42,23 +65,24 @@ body{
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 .title{
+	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
 	/*padding-bottom: 30px;*/
 	font-size: 10em;
 }
 
-#header{
-	background: url(images/nicpic.jpg) 50% 20 fixed;
-	height: 600px;
+#header{;
+	height: 50em;
 	margin: 0 auto;
 	  width: 100%;
 	  position: relative;
 	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	  padding: 0px 0px 100px;
+	  padding: 1em 0;
 }
 
 #aboutme{
 	background: url(images/faders.jpg) 70% 20px fixed;
-	height: 75%;
+	height: 50em;
 	margin: 0 auto;
 		width: 100%;
 		position: relative;
@@ -67,21 +91,50 @@ body{
 }
 
 #work{
-	background: url(images/MichAveSouth.jpg) 70% 20% fixed;
-	height: auto;
+	background: url(images/MichAveSouth.jpg) 100%, 0, fixed;
+	height: 50em;
 	margin: 0 auto;
 		width: 100%;
 		position: relative;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 5em 0;
+		/*padding: 5em 0;*/
 }
-
+.worklinks{
+	display:flex;
+}
+.wrkbtn{
+margin-left: 5px;
+}
+.mywork{
+	display: flex;
+}
+.well{
+	margin-left: 1em;
+	color: black;
+	height: contain;
+}
+.Vispic{
+	background: url(images/VisualizeIt.png) no-repeat;
+	background-size: contain;
+	height:160px;
+	width: 290px;
+}
 #contact{
-	/*background: url(images/MichAveSouth.jpg) 50% 0 fixed;*/
-	height: auto;
+	background: black;
+	height: 50em;
 	margin: 0 auto;
 		width: 100%;
 		position: relative;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		padding: 5em 0;
 }
+form{
+	color: grey;
+}
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Unica One', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif;*/
