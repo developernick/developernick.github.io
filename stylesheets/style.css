@@ -14,6 +14,7 @@ body{
 	background-color: rgb(74, 84, 84);
 	background: url(images/13.jpg) 100% 25px fixed;
 }
+
 /*--- Nav Bar ---*/
 .navbar{
 	font-family: 'Lato', sans-serif;
@@ -109,6 +110,7 @@ body{
 	margin: 0 auto;
 }
 .pic{
+	float: left;
 	margin: 0 auto;
 	background: white;
 	height: 17em;
@@ -119,16 +121,56 @@ body{
 	margin: 3em 0 1em 0	;
 }
 .left_col{
-	margin: 0 5em 0 2em;
+	margin: 0 5em 0 0;
 }
 .skills{
-	float:right;
+	font-family: 'Raleway', sans-serif;
+	float: right;
+	margin-top: 3em;
+}
+.skills_list{
+	width: 15em;
+	margin: 0 auto;
+	background-color: rgba(74, 84, 84, 0.5);
+	font-size: 25px;
+	font-weight: 100;
+	border-radius: 1em;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 1em 1em;
+}
+.list_title{
+	margin: 0 3em 0 1em;
+	border-bottom: 1px white solid;
+	font-weight: 100;
+	font-size: 40px;
 }
 .skills_images{
 	float: left;
 	display: flex;
 	padding: 0;
 	margin: 0 auto;
+}
+.fun{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 3em;
+}
+.fun_list{
+	width: 15em;
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgba(74, 84, 84, 0.5);
+	font-size: 25px;
+	font-weight: 100;
+	border-radius: 1em;
+}
+.fun_images{
+	float: right;
+	display: flex;
+	padding: 0;
+	margin: 1em 0;
 }
 
 #work{
@@ -176,6 +218,7 @@ margin-left: 5px;
 	font-size: 10em;
 	text-shadow: 2px 2px 3px black;
 }
+
 form{
 	color: black;
 	float: right;
