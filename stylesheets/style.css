@@ -15,11 +15,15 @@ body{
 	background: url(images/13.jpg) 100% 25px fixed;
 }
 /*--- Nav Bar ---*/
+.navbar{
+	font-family: 'Lato', sans-serif;
+}
 .navbar-brand{
-	font-size: 20px;
+	font-size: 30px;
+
 }
 .links{
-	font-size: 17px;
+	font-size: 25px;
 	margin-left: 15px;
 }
 .icons{
@@ -57,18 +61,12 @@ body{
 	color: rgba(232, 230, 230, 0.75);
 	/*border: 2px dashed grey;*/
 }
-.text{
-	background-color: rgba(74, 84, 84, 0.6);
-	padding: 10px;
-	margin: 0 auto;
-	border-radius: 10px;
-	box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
+
 .title{
 	font-family: 'Raleway', sans-serif;
-	/*font-family: 'Montserrat', sans-serif;*/
-	/*padding-bottom: 30px;*/
 	font-size: 10em;
+	text-shadow: 2px 2px 3px black;
+	margin: 0 auto;
 }
 
 #header{;
@@ -82,17 +80,60 @@ body{
 
 #aboutme{
 	background: url(images/faders.jpg) 70% 20px fixed;
-	height: 50em;
+	height: auto;
 	margin: 0 auto;
 		width: 100%;
 		position: relative;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 5em 0;
+		padding: 0.5em 0 2em;
+}
+.text{
+	width: 35.2em;
+	float: left;
+	background-color: rgba(74, 84, 84, 0.8);
+	padding: 1em;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+.line1{
+	font-size: 2em;
+	text-align: center;
+}
+.line2{
+	font-size: 1.5em;
+}
+.about_images{
+	float: right;
+	display: flex;
+	padding: 0;
+	margin: 0 auto;
+}
+.pic{
+	margin: 0 auto;
+	background: white;
+	height: 17em;
+	width: 17em;
+	border-radius: 30em;
+}
+.pic_bottom{
+	margin: 3em 0 1em 0	;
+}
+.left_col{
+	margin: 0 5em 0 2em;
+}
+.skills{
+	float:right;
+}
+.skills_images{
+	float: left;
+	display: flex;
+	padding: 0;
+	margin: 0 auto;
 }
 
 #work{
-	background: url(images/MichAveSouth.jpg) 100%, 0, fixed;
-	height: 50em;
+	background: url(images/MichAveSouth.jpg) 100% 0 fixed;
+	height: auto;
 	margin: 0 auto;
 		width: 100%;
 		position: relative;
@@ -120,21 +161,22 @@ margin-left: 5px;
 	width: 290px;
 }
 #contact{
-	background: black;
-	height: 50em;
+	background: url(images/connect.jpg) 70% 20px fixed;
+	background-size: cover;
+	height: 30em;
 	margin: 0 auto;
 		width: 100%;
 		position: relative;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 5em 0;
+		padding: 1em 0;
+
+}
+.title2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 10em;
+	text-shadow: 2px 2px 3px black;
 }
 form{
-	color: grey;
+	color: black;
+	float: right;
 }
-/*font-family: 'Raleway', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Unica One', cursive;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Lato', sans-serif;*/
