@@ -50,7 +50,7 @@ body{
 	height: 30em;
 	width: 30em;
 	border-radius: 36em;
-	background-image: url(images/nicpic.jpg);
+	background-image: url(images/Nicpic.jpg);
 	background-size: cover;
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
@@ -162,11 +162,11 @@ body{
 		background-image: url(images/board.jpg);
 	}
 	.pic11{
-		background-image: url(images/bobbafettstreetart.jpg);
+		background-image: url(images/BobbaFettStreetArt.jpg);
 		background-position-x:-10em;
 	}
 	.pic12{
-		background-image: url(images/woodstock.jpg);
+		background-image: url(images/Woodstock.jpg);
 	}
 
 .pic_bottom{
