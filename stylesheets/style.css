@@ -228,7 +228,7 @@ body{
 			margin-top: 3em;
 			}
 			.fun_title{
-				margin: 0 1em 0 1em;
+				margin: 10px 1em 0 1em;
 				padding: 0;
 				border-bottom: 1px white solid;
 				font-weight: 100;
@@ -236,7 +236,7 @@ body{
 				}
 			.fun_list{
 				width: 20em;
-				margin: 2.5em 5em 0 0 ;
+				margin: 3em 5em 0 0 ;
 				padding: 0 5px 0 5px;
 				background-color: rgba(74, 84, 84, 0.8);
 				font-size: 25px;
@@ -252,7 +252,7 @@ body{
 					.fun_ul{
 						/*text-align: center;*/
 						list-style-type: none;
-						padding: 0 0 1em 2em;
+						padding: 5px 0 1em 2em;
 						/*line-height: 2em;*/
 					}
 /*------------------------------------ Work ------------------------------------*/
