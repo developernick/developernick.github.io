@@ -43,7 +43,7 @@ body{
 		text-shadow: 2px 2px 3px black;
 		margin: 0 auto;
 	}
-/*------------------------------------ About Me ------------------------------------*/
+/*------------------------------------ Header ------------------------------------*/
 	#header{
 		height: 50em;
 		margin: 0 auto;
@@ -88,8 +88,6 @@ body{
 			color: rgba(232, 230, 230, 0.75);
 			/*border: 2px dashed grey;*/
 		}
-
-
 
 /*------------------------------------ About Me ------------------------------------*/
 	#aboutme{
@@ -358,7 +356,7 @@ body{
 /*------------------------------------ Footer ------------------------------------*/
 footer{
 	color: white;
-}
-.foot_links{
+	}
+	.foot_links{
 	font-family: 'Raleway', sans-serif;
 	}
