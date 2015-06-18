@@ -8,119 +8,126 @@ font-family: 'Unica One', cursive;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Playfair Display', serif;
 */
+/*--- ****Page**** ---*/
 
 body{
 	/*padding:20px;*/
 	background-color: rgb(74, 84, 84);
 	background: url(images/13.jpg) 100% 25px fixed;
-}
-
-/*--- Nav Bar ---*/
-.navbar{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
-}
-.navbar-brand{
-	font-size: 30px;
-}
-.links{
-	text-align: center;
-	font-size: 25px;
-	margin-left: 15px;
-}
-.icons{
-	float: right;
-}
-/*--- ****Page**** ---*/
-.spacer{
-	width: 100%;
-	height: 15em;
-}
-/*------------------------------------ About Me ------------------------------------*/
-#header{
-	height: 50em;
-	margin: 0 auto;
-	  width: 100%;
-	  position: relative;
-	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	  padding: 1em 0;
-}
-#header_image{
-	margin: 0 auto;
-	height: 30em;
-	width: 30em;
-	border-radius: 36em;
-	background-image: url(images/Nicpic.jpg);
-	background-size: cover;
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
-.name{
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
-	font-size: 100px;
-	text-shadow: 2px 2px 3px black;
-	line-height: 1.1em;
-	margin: 0 auto;
-	text-align: center;
-}
-.lead{
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
-	font-size: 30px;
-	line-height: 1.1em;
-	text-shadow: 2px 2px 3px black;
-	margin-left: 10px;
-	text-align: center;
-}
-.page-header{
-	padding:10px 0;
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
-}
-.container{
-	color: rgba(232, 230, 230, 0.75);
-	/*border: 2px dashed grey;*/
-}
-
-.title{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
-	font-size: 10em;
-	text-shadow: 2px 2px 3px black;
-	margin: 0 auto;
-}
-
-/*------------------------------------ About Me ------------------------------------*/
-#aboutme{
-	background: url(images/faders.jpg) 70% 20px fixed;
-	height: auto;
-	margin: 0 auto;
+	}
+	.spacer{
 		width: 100%;
-		position: relative;
-		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 1em 0 2em;
-}
-.text{
-	width: 35.2em;
-	float: left;
-	background-color: rgba(74, 84, 84, 0.8);
-	padding: 1em;
-	border-radius: 10px;
-	box-shadow: 0 0 20px rgba(0,0,0,0.7);
-}
-.line1{
-	font-size: 2em;
-	text-align: center;
-}
-.line2{
-	font-size: 1.5em;
-}
-.about_images{
-	float: right;
-	display: flex;
-	padding: 0;
-	margin: 0 auto;
-}
+		height: 10em;
+	}
+
+	/*--- Nav Bar ---*/
+	.navbar{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
+	}
+	.navbar-brand{
+		font-size: 30px;
+	}
+	.links{
+		text-align: center;
+		font-size: 25px;
+		margin-left: 15px;
+	}
+	.icons{
+		float: right;
+	}
+	.title{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 100;
+		font-size: 9em;
+		text-shadow: 2px 2px 3px black;
+		margin: 0 auto;
+	}
+/*------------------------------------ About Me ------------------------------------*/
+	#header{
+		height: 50em;
+		margin: 0 auto;
+	  	width: 100%;
+	  	position: relative;
+	  	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  	padding: 1em 0;
+		}
+		#header_image{
+			margin: 0 auto;
+			height: 30em;
+			width: 30em;
+			border-radius: 36em;
+			background-image: url(images/Nicpic.jpg);
+			background-size: cover;
+			box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		}
+		.name{
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			font-size: 100px;
+			text-shadow: 2px 2px 3px black;
+			line-height: 1.1em;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.lead{
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			font-size: 30px;
+			line-height: 1.1em;
+			text-shadow: 2px 2px 3px black;
+			margin-left: 10px;
+			text-align: center;
+		}
+		.page-header{
+			padding:10px 0;
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+		}
+		.container{
+			color: rgba(232, 230, 230, 0.75);
+			/*border: 2px dashed grey;*/
+		}
+
+
+
+/*------------------------------------ About Me ------------------------------------*/
+	#aboutme{
+		background: url(images/faders.jpg) 70% 20px fixed;
+		height: auto;
+		margin: 0 auto;
+			width: 100%;
+			position: relative;
+			box-shadow: 0 0 50px rgba(0,0,0,0.8);
+			padding: 1em 0 10em;
+		}
+		.text{
+			width: 35.2em;
+			float: left;
+			background-color: rgba(74, 84, 84, 0.8);
+			padding: 1em;
+			border-radius: 10px;
+			box-shadow: 0 0 20px rgba(0,0,0,0.7);
+			margin: 1em auto;
+		}
+		.line1{
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			color: rgb(174, 172, 172);
+			font-size: 2.3em;
+			text-align: center;
+		}
+		.line2{
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 1.5em;
+		}
+		.line3{
+			font-size: 15px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 200;
+		}
+
 .pic{
 	float: left;
 	margin: 0 auto;
@@ -132,170 +139,226 @@ body{
 	border-radius: 30em;
 	}
 	.pic1{
-	background-image: url(images/captamer.jpg);
-	}
-	.pic2{
-		background-image: url(images/calipic.jpg);
-	}
-	.pic3{
-		background-image: url(images/moonmoon.jpg);
-	}
-	.pic4{
-		background-image: url(images/hawkwedding.jpg);
-	}
-	.pic5{
-		background-image: url(images/buddy.jpg);
-	}
-	.pic6{
-		background-image: url(images/hawks.jpg);
-	}
-	.pic7{
-		background-image: url(images/wrigley.jpg);
-	}
-	.pic8{
-		background-image: url(images/baby.jpg);
-	}
-	.pic9{
-		background-image: url(images/BBKing.jpg);
-	}
-	.pic10{
-		background-image: url(images/board.jpg);
-	}
-	.pic11{
-		background-image: url(images/BobbaFettStreetArt.jpg);
-		background-position-x:-10em;
-	}
-	.pic12{
-		background-image: url(images/Woodstock.jpg);
-	}
+		background-image: url(images/captamer.jpg);
+		}
+		.pic2{
+			background-image: url(images/calipic.jpg);
+			}
+			.pic3{
+				background-image: url(images/moonmoon.jpg);
+				}
+				.pic4{
+					background-image: url(images/hawkwedding.jpg);
+					}
+					.pic5{
+						background-image: url(images/buddy.jpg);
+						}
+						.pic6{
+							background-image: url(images/hawks.jpg);
+							}
+							.pic7{
+								background-image: url(images/wrigley.jpg);
+								}
+								.pic8{
+									background-image: url(images/baby.jpg);
+									}
+									.pic9{
+										background-image: url(images/BBKing.jpg);
+										}
+										.pic10{
+											background-image: url(images/board.jpg);
+											}
+											.pic11{
+												background-image: url(images/BobbaFettStreetArt.jpg);
+												background-position-x:-10em;
+												}
+												.pic12{
+													background-image: url(images/Woodstock.jpg);
+													}
 
-.pic_bottom{
-	margin: 3em 0 1em 0	;
-}
-.left_col{
-	margin: 0 5em 0 0;
-}
-.skills{
-	font-family: 'Raleway', sans-serif;
-	float: right;
-	margin-top: 3em;
-}
-.skills_list{
-	width: 15em;
-	margin: 0 auto;
-	background-color: rgba(74, 84, 84, 0.5);
-	font-size: 25px;
-	font-weight: 100;
-	border-radius: 1em;
-}
-.skillz{
-	list-style-type: none;
-	padding: 0;
-	margin: 0 1em 1em;
-	font-size: 20px;
-}
-.list_title{
-	margin: 0 3em 0 1em;
-	border-bottom: 1px white solid;
-	font-weight: 100;
-	font-size: 40px;
-}
-.skills_images{
-	float: left;
-	display: flex;
-	padding: 0;
-	margin: 0 auto;
-}
-.fun{
-	font-family: 'Raleway', sans-serif;
-	margin-top: 3em;
-}
-.fun_list{
-	width: 15em;
-	margin: 0 auto;
-	padding: 0;
-	background-color: rgba(74, 84, 84, 0.5);
-	font-size: 25px;
-	font-weight: 100;
-	border-radius: 1em;
-}
-.fun_images{
-	float: right;
-	display: flex;
-	padding: 0;
-	margin: 1em 0;
-}
+													.pic_bottom{
+														margin: 1em 0 1em 0	;
+														}
+														.left_col{
+															margin: 0 1em 0 0;
+															}
+
+	.about_images{
+		/*float: right;*/
+		display: flex;
+		padding: 0 0 0 3em;
+		margin: 0 auto;
+		}
+		.skillDiv{
+			padding:0;
+			margin: 0 auto;
+			}
+			.skills{
+				font-family: 'Raleway', sans-serif;
+				margin: 9em 0 3em 4.5em;
+				}
+				.skills_list{
+					width: 17em;
+					margin: 0 auto;
+					background-color: rgba(74, 84, 84, 0.5);
+					font-size: 25px;
+					font-weight: 100;
+					border-radius: 1em;
+					}
+					.skillz{
+						list-style-type: none;
+						padding: 0;
+						margin: 0 2em 1em 2em;
+						font-size: 25px;
+						}
+						.list_title{
+							margin:0 1em;
+							padding: 5px;
+							border-bottom: 1px white solid;
+							font-weight: 100;
+							font-size: 40px;
+							}
+
+							.skills_images{
+								float: left;
+								display: flex;
+								padding: 3em 3em 0 0;
+								margin: 3em auto;
+								}
+	.fun{
+			font-family: 'Raleway', sans-serif;
+			margin-top: 3em;
+			}
+			.fun_title{
+				margin: 0 1em 0 1em;
+				padding: 0;
+				border-bottom: 1px white solid;
+				font-weight: 100;
+				font-size: 40px;
+				}
+			.fun_list{
+				width: 20em;
+				margin: 2.5em 5em 0 0 ;
+				padding: 0 5px 0 5px;
+				background-color: rgba(74, 84, 84, 0.8);
+				font-size: 25px;
+				font-weight: 100;
+				border-radius: 1em;
+				}
+				.fun_images{
+					float: right;
+					display: flex;
+					padding: 0 0 0 3em;
+					margin: 11em 0 0 0;
+					}
+					.fun_ul{
+						/*text-align: center;*/
+						list-style-type: none;
+						padding: 0 0 1em 2em;
+						/*line-height: 2em;*/
+					}
 /*------------------------------------ Work ------------------------------------*/
-#work{
-	background: url(images/MichAveSouth.jpg) 100% 10px fixed;
-	height: auto;
-	margin: 0 auto;
-		width: 100%;
-		position: relative;
-		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 5em 0;
-}
-.work_title{
-	font-family: 'Raleway', sans-serif;
-}
-.worklinks{
-	display:flex;
-	margin: 0em 2em 0em 2em;
-	padding: 0;
-}
-.wrkbtn{
-margin: 0 3em 0 0;
-}
-.mywork{
-	font-family: 'Libre Baskerville', serif;
-	display: flex;
-}
-.well{
-	margin-left: 1em;
-	color: black;
-	height: auto;
-	width: 25em;
-	padding: 1em;
-}
-.Vispic{
-	background-image: url(images/VisualizeIt.png);
-	background-size: contain;
-	height:160px;
-	width: 320px;
-	margin-bottom: 1em;
-}
-.triv_pic{
-	background-image: url(images/TriviaBase.png);
-	background-size: contain;
-	height:160px;
-	width: 320px;
-	margin-bottom: 1em;
-}
-.squawk_pic{
-	background-image: url(http://lorempixel.com/320/160/animals/);
-	background-size: contain;
-	height:160px;
-	width: 320px;
-	margin-bottom: 1em;
-}
+	#work{
+		background: url(images/MichAveSouth.jpg) 100% 10px fixed;
+		height: auto;
+		margin: 0 auto;
+			width: 100%;
+			position: relative;
+			box-shadow: 0 0 50px rgba(0,0,0,0.8);
+			padding: 5em 0;
+		}
+		.work_title{
+			font-family: 'Raleway', sans-serif;
+		}
+		.worklinks{
+			display:flex;
+			margin: 0em 2em 0em 2em;
+			padding: 0;
+		}
+		.wrkbtn{
+			margin: 0 3em 0 0;
+		}
+		.mywork{
+			font-family: 'Libre Baskerville', serif;
+			display: flex;
+		}
+		.well{
+			margin-left: 1em;
+			color: black;
+			height: auto;
+			width: 25em;
+			padding: 1em;
+		}
+		.Vispic{
+			background-image: url(images/VisualizeIt.png);
+			background-size: contain;
+			height:160px;
+			width: 320px;
+			margin-bottom: 1em;
+		}
+		.triv_pic{
+			background-image: url(images/TriviaBase.png);
+			background-size: contain;
+			height:160px;
+			width: 320px;
+			margin-bottom: 1em;
+		}
+		.squawk_pic{
+			background-image: url(http://lorempixel.com/320/160/animals/);
+			background-size: contain;
+			height:160px;
+			width: 320px;
+			margin-bottom: 1em;
+		}
 /*------------------------------------ Contact ------------------------------------*/
-#contact{
-	background: url(images/connect.jpg) 50% 0 fixed;
-	/*background-size: cover;*/
-	height: auto;
-	margin: 0 auto;
-		width: 100%;
-		position: relative;
-		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 5em 0;
-}
-.title2{
-	font-family: 'Raleway', sans-serif;
-	font-size: 10em;
-	text-shadow: 2px 2px 3px black;
-}
+	#contact{
+		background: url(images/connect.jpg) 50% 0 fixed;
+		height: 50em;
+		margin: 0 auto;
+			width: 100%;
+			position: relative;
+			box-shadow: 0 0 50px rgba(0,0,0,0.8);
+			padding: 5em 0;
+		}
 
-form{
-	color: black;
-	float: right;
+		.messageIn{
+			width: 40em;
+			margin: 0 auto;
+		}
+		.msg, .sender{
+
+			margin: 1em auto;
+		}
+		.form{
+			margin: 0 auto;
+			color: black;
+			float: right;
+		}
+		.nameIn, .senderIn{
+			width: 22em;
+			/*float: right;*/
+		}
+		.sendbtn{
+			/*float: right;*/
+			/*margin: 2em 3em 0 0;*/
+		}
+		.contact_info{
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			border-radius: 1em;
+			background-color: rgba(74, 84, 84, 0.8);
+			margin: 7em 10em 0 10em;
+		}
+		.contact_one{
+			border-bottom: 1px white solid;
+			font-size: 2em;
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+		}
+/*------------------------------------ Footer ------------------------------------*/
+footer{
+	color: white;
 }
+.foot_links{
+	font-family: 'Raleway', sans-serif;
+	}
