@@ -17,13 +17,14 @@ body{
 
 /*--- Nav Bar ---*/
 .navbar{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 }
 .navbar-brand{
 	font-size: 30px;
-
 }
 .links{
+	text-align: center;
 	font-size: 25px;
 	margin-left: 15px;
 }
@@ -35,23 +36,41 @@ body{
 	width: 100%;
 	height: 15em;
 }
-/*--- Header ---*/
+/*------------------------------------ About Me ------------------------------------*/
+#header{
+	height: 50em;
+	margin: 0 auto;
+	  width: 100%;
+	  position: relative;
+	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  padding: 1em 0;
+}
+#header_image{
+	margin: 0 auto;
+	height: 30em;
+	width: 30em;
+	border-radius: 36em;
+	background-image: url(images/nicpic.jpg);
+	background-size: cover;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
 .name{
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 100px;
+	text-shadow: 2px 2px 3px black;
 	line-height: 1.1em;
 	margin: 0 auto;
-	/*float: left;*/
+	text-align: center;
 }
 .lead{
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 30px;
 	line-height: 1.1em;
+	text-shadow: 2px 2px 3px black;
 	margin-left: 10px;
-	/*float: left;*/
-
+	text-align: center;
 }
 .page-header{
 	padding:10px 0;
@@ -65,20 +84,13 @@ body{
 
 .title{
 	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 	font-size: 10em;
 	text-shadow: 2px 2px 3px black;
 	margin: 0 auto;
 }
 
-#header{;
-	height: 50em;
-	margin: 0 auto;
-	  width: 100%;
-	  position: relative;
-	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	  padding: 1em 0;
-}
-
+/*------------------------------------ About Me ------------------------------------*/
 #aboutme{
 	background: url(images/faders.jpg) 70% 20px fixed;
 	height: auto;
@@ -86,7 +98,7 @@ body{
 		width: 100%;
 		position: relative;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 0.5em 0 2em;
+		padding: 1em 0 2em;
 }
 .text{
 	width: 35.2em;
@@ -112,11 +124,51 @@ body{
 .pic{
 	float: left;
 	margin: 0 auto;
-	background: white;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 17em;
 	width: 17em;
 	border-radius: 30em;
-}
+	}
+	.pic1{
+	background-image: url(images/captamer.jpg);
+	}
+	.pic2{
+		background-image: url(images/calipic.jpg);
+	}
+	.pic3{
+		background-image: url(images/moonmoon.jpg);
+	}
+	.pic4{
+		background-image: url(images/hawkwedding.jpg);
+	}
+	.pic5{
+		background-image: url(images/buddy.jpg);
+	}
+	.pic6{
+		background-image: url(images/hawks.jpg);
+	}
+	.pic7{
+		background-image: url(images/wrigley.jpg);
+	}
+	.pic8{
+		background-image: url(images/baby.jpg);
+	}
+	.pic9{
+		background-image: url(images/BBKing.jpg);
+	}
+	.pic10{
+		background-image: url(images/board.jpg);
+	}
+	.pic11{
+		background-image: url(images/bobbafettstreetart.jpg);
+		background-position-x:-10em;
+	}
+	.pic12{
+		background-image: url(images/woodstock.jpg);
+	}
+
 .pic_bottom{
 	margin: 3em 0 1em 0	;
 }
@@ -136,10 +188,11 @@ body{
 	font-weight: 100;
 	border-radius: 1em;
 }
-ul{
+.skillz{
 	list-style-type: none;
 	padding: 0;
 	margin: 0 1em 1em;
+	font-size: 20px;
 }
 .list_title{
 	margin: 0 3em 0 1em;
@@ -172,7 +225,7 @@ ul{
 	padding: 0;
 	margin: 1em 0;
 }
-
+/*------------------------------------ Work ------------------------------------*/
 #work{
 	background: url(images/MichAveSouth.jpg) 100% 10px fixed;
 	height: auto;
@@ -180,38 +233,61 @@ ul{
 		width: 100%;
 		position: relative;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		/*padding: 5em 0;*/
+		padding: 5em 0;
+}
+.work_title{
+	font-family: 'Raleway', sans-serif;
 }
 .worklinks{
 	display:flex;
+	margin: 0em 2em 0em 2em;
+	padding: 0;
 }
 .wrkbtn{
-margin-left: 5px;
+margin: 0 3em 0 0;
 }
 .mywork{
+	font-family: 'Libre Baskerville', serif;
 	display: flex;
 }
 .well{
 	margin-left: 1em;
 	color: black;
-	height: contain;
+	height: auto;
+	width: 25em;
+	padding: 1em;
 }
 .Vispic{
-	background: url(images/VisualizeIt.png) no-repeat;
+	background-image: url(images/VisualizeIt.png);
 	background-size: contain;
 	height:160px;
-	width: 290px;
+	width: 320px;
+	margin-bottom: 1em;
 }
+.triv_pic{
+	background-image: url(images/TriviaBase.png);
+	background-size: contain;
+	height:160px;
+	width: 320px;
+	margin-bottom: 1em;
+}
+.squawk_pic{
+	background-image: url(http://lorempixel.com/320/160/animals/);
+	background-size: contain;
+	height:160px;
+	width: 320px;
+	margin-bottom: 1em;
+}
+/*------------------------------------ Contact ------------------------------------*/
 #contact{
-	background: url(images/connect.jpg) 70% 20px fixed;
-	background-size: cover;
-	height: 30em;
+	background: url(images/connect.jpg) 50% 0 fixed;
+	/*background-size: cover;*/
+	height: auto;
 	margin: 0 auto;
 		width: 100%;
 		position: relative;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
-		padding: 1em 0;
-
+		padding: 5em 0;
 }
 .title2{
 	font-family: 'Raleway', sans-serif;

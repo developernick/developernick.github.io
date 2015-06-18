@@ -34,11 +34,13 @@
 						<li class="links"><a href="#work">work</a></li>
 						<li class="links"><a href="#contact">contact</a></li>
 					</ul>
+					<div class="nav navbar-nav icons">
 					<ul class="nav navbar-nav icons">
 						<li><a href="https://github.com/developernick" target="_blank"><i class="fa fa-github-square fa-2x"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/developernick" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
 						<li><a href="https://www.facebook.com/nselesky" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
 					</ul>
+					</div>
 				</div><!-- end navbar links -->
 			</div>
 		</nav>
@@ -48,9 +50,11 @@
 		<section id="header" data-speed="9" data-type="background">
 			<div class="container">
 				<header class="page-header col-md-12">
-					<div class="col-md-6">
+					<div class="col-md-12">
+						<div id="header_image"  data-speed="0.1" data-type="background"></div>
 						<h1 class="row name">Nick Selesky</h1>
 						<h1 class="row lead">Full-Stack Web Developer</h1>
+
 					</div>
 				</header><!-- end header -->
 			</div>
@@ -71,12 +75,12 @@
 
 							<div class="about_images col-md-6">
 								<div class="row pic_group left_col">
-									<div class="pic"></div>
-									<div class="pic pic_bottom"></div>
+									<div class="pic pic1"></div>
+									<div class="pic2 pic pic_bottom"></div>
 								</div>
 								<div class="row pic_group right_col">
-									<div class="pic"></div>
-									<div class=" pic pic_bottom"></div>
+									<div class="pic3 pic"></div>
+									<div class=" pic4 pic pic_bottom"></div>
 								</div>
 							</div>
 					</div>
@@ -85,12 +89,12 @@
 							<div class="col-md-6">
 							<div class="row skills_images">
 								<div class="row pic_group left_col">
-									<div class="pic"></div>
-									<div class="pic pic_bottom"></div>
+									<div class="pic pic5"></div>
+									<div class="pic pic6 pic_bottom"></div>
 								</div>
 								<div class="row">
-									<div class="pic"></div>
-									<div class=" pic pic_bottom"></div>
+									<div class="pic pic7"></div>
+									<div class=" pic pic8 pic_bottom"></div>
 								</div>
 							</div>
 							</div>
@@ -98,11 +102,11 @@
 							<div class="col-md-6 skills">
 								<div class="row skills_list">
 									<p class="list_title">Skills</p>
-									<ul class="col-md-3">
-										<li>HTML/CSS</li><li>SASS</li><li>Bootstrap</li><li>Skeleton</li><li>Angular</li><li>JavaScript</li><li>Backbone</li><li>Node</li><li>Express</li>
+									<ul class="col-md-3 skillz">
+										<li>HTML/CSS</li><li>SASS</li><li>Bootstrap</li><li>Skeleton</li><li>Angular</li><li>JavaScript</li><li>Backbone</li><li>JQuery</li>
 									</ul>
-									<ul class="col-md-3">
-									<li>Ruby</li><li>Ruby on Rails</li><li>Sinatra</li><li>Posgresql</li><li>Firebasse</li><li>Github</li>
+									<ul class="col-md-3 skillz">
+										<li>Node</li><li>Express</li><li>Ruby</li><li>Rails</li> <li>Sinatra</li> <li>Posgresql</li> <li>Firebasse</li> <li>Github</li>
 									</ul>
 								</div>
 							</div>
@@ -111,7 +115,7 @@
 						<div class="col-md-12">
 							<div class="col-md-6 fun">
 								<div class="row fun_list">
-									<p class="list_title">Fun Stuff</p>
+									<p class="list_title">Things I Love</p>
 									<ul>
 										<li>Fun</li>
 										<li>Things</li>
@@ -125,12 +129,12 @@
 
 						<div class="fun_images col-md-6">
 							<div class="row pic_group left_col">
-								<div class="pic"></div>
-								<div class="pic pic_bottom"></div>
+								<div class="pic pic9"></div>
+								<div class="pic pic10 pic_bottom"></div>
 							</div>
 							<div class="row">
-								<div class="pic"></div>
-								<div class=" pic pic_bottom"></div>
+								<div class="pic pic11"></div>
+								<div class=" pic pic12 pic_bottom"></div>
 							</div>
 						</div>
 					</div><!-- end Fun -->
@@ -147,41 +151,43 @@
 					<h2 class="row title">Work</h2>
 						<div class="row mywork">
 
-							<div class="span4 well">
-								<h2>VisualizeIt</h2>
+							<div class="col-md-4 well">
+								<h2 class="work_title">VisualizeIt</h2>
 								<div class="Vispic"></div>
-								<p>Using the Web Audio API, and D3 I created a visual representation of the soundwaves around your device. The Web Audio captures the sound input, turns the samples into the data that D3 renders fun designs to an SVG.</p>
-								<ol>
-									<li>Allow VisualizeIt to access your microphone</li>
-									<li>Turn on your favorite tunes</li>
-									<li>Party!!!</li>
-								</ol>
 								<div class="worklinks">
 									<p><a class="btn btn-success wrkbtn" href="http://visualize-it.herokuapp.com/"> VisualizeIt &raquo;</a></p>
 									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/VisualizeIt"> GitHub Repo &raquo;</a></p>
 								</div>
+								<div class="work_text">
+									<p>Using the Web Audio API, and D3 I created a visual representation of the soundwaves around your device. The Web Audio captures the sound input, turns the samples into the data that D3 renders fun designs to an SVG.</p>
+								</div>
+
 							</div><!-- VisualizeIt end -->
 
-							<div class="span4 well">
-								<h2>TriviaBase</h2>
+							<div class="col-md-4 well">
+								<h2 class="work_title">TriviaBase</h2>
 								<div class="triv_pic"></div>
-								<p>A game based on Bar Trivia. This game however allows you to do it anywhere without an organizer. Plus a Chat Room to talk smack, or cheer on other teams. THis app was built with Ruby on Rails, and Firebase</p>
-
-								<div class="worklinks">
+								<div class="row worklinks">
 									<p><a class="btn btn-success wrkbtn" href="http://triviabase.herokuapp.com/"> TriviaBase &raquo;</a></p>
 									<p><a class="btn btn-success wrkbtn" href="https://github.com/WDI-Woodstock-Sally/Trivia-App"> GitHub Repo &raquo;</a></p>
 								</div>
+								<div class="work_text">
+									<p>A game based on Bar Trivia. This game however allows you to play anywhere. Plus a Chat Room to talk smack, or cheer on other teams. This app was built with Ruby on Rails, and Firebase</p>
+								</div>
+
 							</div><!-- /.span4 -->
 
-							<div class="well">
-								<h2>Squawker</h2>
+							<div class="col-md-4 well">
+								<h2 class="work_title">Squawker</h2>
 								<div class="squawk_pic"></div>
-								<p>Recreating the basic functionality of a popular social media site. I think it has something to do with an avian species? Or just the noise it makes.</p>
-
 								<div class="worklinks">
 									<p><a class="btn btn-success wrkbtn" href="/"> Squawker &raquo;</a></p>
 									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/Squawker"> GitHub Repo &raquo;</a></p>
 								</div>
+								<div class="work_text">
+									<p>Recreating the basic functionality of a popular social media site. I think it has something to do with an avian species? Or just the noise it makes.</p>
+								</div>
+
 							</div><!-- /.span4 -->
 
 					</div>
@@ -190,10 +196,10 @@
 		</section>
 		<div class="spacer"></div>
 
-		<section id="contact" data-speed="1" data-type="background">
+		<section id="contact" data-speed="0" data-type="background">
 			<div class="container">
 				<article class="col-md-12">
-					<h2 class="row title2">Contact</h2>
+					<h2 class="row title">Contact</h2>
 					<div class="row form">
 						<form action="//formspree.io/developernick.ninja@gmail.com" method="POST">
 							<input type="text" name="name" placeholder="Your Name"/>
@@ -208,10 +214,15 @@
 
 	</div> <!-- end container-liquid -->
 
-		<footer class="container">
-			<div class="footer">
-				<h4>Footer/Legal Content</h4>
+		<footer class="col-md-12 container">
+			<div class="footer row">
+				<h4>DeveloperNick</h4>
 				<p> &copy; 2015 Nick Selesky</p>
+				<ul class="nav navbar-nav icons">
+					<li><a href="https://github.com/developernick" target="_blank"><i class="fa fa-github-square fa-2x"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/developernick" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+					<li><a href="https://www.facebook.com/nselesky" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+				</ul>
 			</div>
 		</footer><!-- end footer -->
 	</body>
