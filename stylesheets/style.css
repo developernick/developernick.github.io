@@ -11,7 +11,6 @@ font-family: 'Playfair Display', serif;
 /*--- ****Page**** ---*/
 
 body{
-	/*padding:20px;*/
 	background-color: rgb(74, 84, 84);
 	background: url(images/13.jpg) 100% 25px fixed;
 	}
@@ -39,10 +38,14 @@ body{
 	.title{
 		font-family: 'Raleway', sans-serif;
 		font-weight: 100;
-		font-size: 9em;
+		font-size: 8em;
 		text-shadow: 2px 2px 3px black;
 		margin: 0 auto;
 	}
+	.autoDiv{
+		padding: 0;
+		margin: 0 auto;
+		}
 /*------------------------------------ Header ------------------------------------*/
 	#header{
 		height: 50em;
@@ -99,47 +102,69 @@ body{
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
 			padding: 1em 0 10em;
 		}
+		.about_space{
+			width: 100%;
+			height: 5%;
+		}
+		.about_left{
+			padding: 0;
+			margin: 0 auto;
+		}
+		.about_right{
+			padding: 0;
+			margin: 0 auto;
+		}
 		.text{
-			width: 35.2em;
-			float: left;
+			width: 100%;
+			height: auto;
 			background-color: rgba(74, 84, 84, 0.8);
 			padding: 1em;
 			border-radius: 10px;
 			box-shadow: 0 0 20px rgba(0,0,0,0.7);
-			margin: 1em auto;
-		}
-		.line1{
-			font-family: 'Lato', sans-serif;
-			font-weight: 100;
-			color: rgb(174, 172, 172);
-			font-size: 2.3em;
-			text-align: center;
-		}
-		.line2{
-			font-family: 'Lato', sans-serif;
-			font-weight: 300;
-			font-size: 1.5em;
-		}
-		.line3{
-			font-size: 15px;
-			font-family: 'Lato', sans-serif;
-			font-weight: 200;
-		}
+			}
+				.line1{
+					font-family: 'Lato', sans-serif;
+					font-weight: 100;
+					color: rgb(174, 172, 172);
+					font-size: 2.5em;
+					text-align: center;
+				}
+					.line2{
+						font-family: 'Lato', sans-serif;
+						font-weight: 300;
+						font-size: 1.8em;
+					}
+						.line3{
+							font-size: 17px;
+							font-family: 'Lato', sans-serif;
+							font-weight: 200;
+						}
 
 .pic{
-	float: left;
 	margin: 0 auto;
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 17em;
-	width: 17em;
+	height: 16em;
+	width: 16em;
 	border-radius: 30em;
+	background: white;
 	}
+	.bbl{
+		margin: 5em auto;
+		width: 28em;
+		height: 28em;
+		border-radius: 30em;
+		background: white;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	.pic1{
-		background-image: url(images/captamer.jpg);
+		background-image: url(images/Nick8x10.png);
 		}
-		.pic2{
+		/*.pic2{
 			background-image: url(images/calipic.jpg);
 			}
 			.pic3{
@@ -159,11 +184,11 @@ body{
 								}
 								.pic8{
 									background-image: url(images/baby.jpg);
-									}
+									}*/
 									.pic9{
 										background-image: url(images/BBKing.jpg);
 										}
-										.pic10{
+										/*.pic10{
 											background-image: url(images/board.jpg);
 											}
 											.pic11{
@@ -172,31 +197,33 @@ body{
 												}
 												.pic12{
 													background-image: url(images/Woodstock.jpg);
-													}
+													}*/
 
 													.pic_bottom{
-														margin: 1em 0 1em 0	;
+														margin-top: 1.5em;
 														}
 														.left_col{
-															margin: 0 1em 0 0;
+															margin: 0 auto;
+															padding: 0;
 															}
+															.right_col{
+																margin: 0 auto;
+																padding: 0;
+																}
 
 	.about_images{
-		/*float: right;*/
+		width: 100%;
 		display: flex;
-		padding: 0 0 0 3em;
 		margin: 0 auto;
 		}
-		.skillDiv{
-			padding:0;
-			margin: 0 auto;
-			}
+
 			.skills{
 				font-family: 'Raleway', sans-serif;
 				margin: 9em 0 3em 4.5em;
 				}
+
 				.skills_list{
-					width: 17em;
+					width: 100%;
 					margin: 0 auto;
 					background-color: rgba(74, 84, 84, 0.5);
 					font-size: 25px;
@@ -218,11 +245,11 @@ body{
 							}
 
 							.skills_images{
-								float: left;
-								display: flex;
-								padding: 3em 3em 0 0;
-								margin: 3em auto;
+								padding: 0;
+								margin: 0 auto;
+								margin: 9.5em 0 0 0;
 								}
+
 	.fun{
 			font-family: 'Raleway', sans-serif;
 			margin-top: 3em;
@@ -235,24 +262,22 @@ body{
 				font-size: 40px;
 				}
 			.fun_list{
-				width: 20em;
-				margin: 3em 5em 0 0 ;
-				padding: 0 5px 0 5px;
+				width: auto;
 				background-color: rgba(74, 84, 84, 0.8);
 				font-size: 25px;
 				font-weight: 100;
 				border-radius: 1em;
 				}
 				.fun_images{
-					float: right;
+					width: 100%;
 					display: flex;
-					padding: 0 0 0 3em;
-					margin: 11em 0 0 0;
+					padding: 0;
+					margin: 0;
 					}
 					.fun_ul{
 						/*text-align: center;*/
 						list-style-type: none;
-						padding: 5px 0 1em 2em;
+						/*padding: 5px 0 1em 2em;*/
 						/*line-height: 2em;*/
 					}
 /*------------------------------------ Work ------------------------------------*/
