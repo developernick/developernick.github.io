@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+  $('#showViz').click(function(e){
+    console.log("click click");
+    document.getElementById("visualizeit").style.display="block";
+    document.getElementById("mywork").style.display="none";
+  });
+
    // cache the window object
    $window = $(window);
 
@@ -18,7 +25,10 @@ $(document).ready(function(){
         $scroll.css({ backgroundPosition: coords });
       }); // end window scroll
    });  // end section function
+
+
 }); // close out script
 
 /* Create HTML5 element for IE */
 document.createElement("section");
+1

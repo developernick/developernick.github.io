@@ -57,8 +57,8 @@ body{
 		}
 		#header_image{
 			margin: 0 auto;
-			height: 30em;
-			width: 30em;
+			height: 25em;
+			width: 25em;
 			border-radius: 36em;
 			background-image: url(images/Nicpic.jpg);
 			background-size: cover;
@@ -283,7 +283,7 @@ body{
 /*------------------------------------ Work ------------------------------------*/
 	#work{
 		background: url(images/MichAveSouth.jpg) 100% 10px fixed;
-		height: auto;
+		height: 50em;
 		margin: 0 auto;
 			width: 100%;
 			position: relative;
@@ -302,8 +302,17 @@ body{
 			margin: 0 3em 0 0;
 		}
 		.mywork{
+			display:inline-flex;
+			margin: 0 auto;
 			font-family: 'Libre Baskerville', serif;
-			display: flex;
+		}
+		.visualizeit{
+			height: 100%;
+			width: 100%;
+			z-index: 9999;
+			position: fixed;
+			top: 0;
+			left: 0;
 		}
 		.well{
 			margin-left: 1em;
@@ -312,19 +321,18 @@ body{
 			width: 25em;
 			padding: 1em;
 		}
+		.workpic{
+			background-size: cover;
+			height: 15em;
+			width: 30em;
+			margin: 9em 0 0 0;
+			padding: 0;
+		}
 		.Vispic{
 			background-image: url(images/VisualizeIt.png);
-			background-size: contain;
-			height:160px;
-			width: 320px;
-			margin-bottom: 1em;
 		}
 		.triv_pic{
 			background-image: url(images/TriviaBase.png);
-			background-size: contain;
-			height:160px;
-			width: 320px;
-			margin-bottom: 1em;
 		}
 		.squawk_pic{
 			background-image: url(http://www.placecage.com/c/320/160);
@@ -341,36 +349,33 @@ body{
 			width: 100%;
 			position: relative;
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
-			padding: 5em 0;
+			padding: 5em 0 0 0;
 		}
 
-		.messageIn{
-			width: 40em;
+		#message{
 			margin: 0 auto;
 		}
 		.msg, .sender{
-
-			margin: 1em auto;
+			display: flex;
+			margin: 0 auto;
+			padding: 1em;
 		}
 		.form{
 			margin: 0 auto;
 			color: black;
-			float: right;
+			display: flex;
 		}
-		.nameIn, .senderIn{
+		.nameIn{
+			width: 14em;
+		}
+		.senderIn{
 			width: 22em;
-			/*float: right;*/
-		}
-		.sendbtn{
-			/*float: right;*/
-			/*margin: 2em 3em 0 0;*/
 		}
 		.contact_info{
 			font-family: 'Lato', sans-serif;
 			font-weight: 100;
 			border-radius: 1em;
 			background-color: rgba(74, 84, 84, 0.8);
-			margin: 7em 10em 0 10em;
 		}
 		.contact_one{
 			border-bottom: 1px white solid;
@@ -378,6 +383,21 @@ body{
 			font-family: 'Lato', sans-serif;
 			font-weight: 100;
 		}
+		.contact_left{
+			text-align: center;
+			margin-top: 5em;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			text-shadow: 2px 2px 3px black;
+		}
+		.sendbtn{float: right;}
+
+		.emailLink{
+			color: rgb(51, 122, 183);
+			font-weight: 500;
+		}
+		.contact_txtop{font-size: 3.5em;}
+		.contact_txbtm{font-size: 2em;}
 /*------------------------------------ Footer ------------------------------------*/
 footer{
 	background-color: black;

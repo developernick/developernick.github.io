@@ -189,9 +189,14 @@
 					<h2 class="row title">Work</h2>
 						<div class="row mywork">
 
-							<div class="col-md-4 well">
-								<h2 class="work_title">VisualizeIt</h2>
-								<div class="Vispic"></div>
+						<button id="showTriv" class="triv_pic workpic col-lg-3"></button>
+						<button id="showViz" class="Vispic workpic col-lg-3"></button>
+
+						<div id="visualizeit" class="container">
+						<div  class="col-lg-12" style="display:none;">
+								<div class="well col-lg-6">
+									<h2 class="work_title">VisualizeIt</h2>
+									<div class="Vispic"></div>
 								<div class="worklinks">
 									<p><a class="btn btn-success wrkbtn" href="http://visualize-it.herokuapp.com/"> VisualizeIt &raquo;</a></p>
 									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/VisualizeIt"> GitHub Repo &raquo;</a></p>
@@ -199,10 +204,11 @@
 								<div class="work_text">
 									<p>Using the Web Audio API, and D3 I created a visual representation of the soundwaves around your device. The Web Audio captures the sound input, turns the samples into the data that D3 renders fun designs to an SVG.</p>
 								</div>
-
 							</div><!-- VisualizeIt end -->
+						</div>
 
-							<div class="col-md-4 well">
+							<div id ="trivia" class="col-lg-12" style="display:none;">
+							<div  class="col-md-4 well">
 								<h2 class="work_title">TriviaBase</h2>
 								<div class="triv_pic"></div>
 								<div class="row worklinks">
@@ -214,7 +220,7 @@
 								</div>
 
 							</div><!-- end TriviaBase -->
-
+						</div>
 							<!-- <div class="col-md-4 well">
 								<h2 class="work_title">Squawker</h2>
 								<div class="squawk_pic"></div>
@@ -237,31 +243,44 @@
 		<div class="col-md-12" id="scroll_contact"></div>
 
 		<section id="contact" data-speed="0" data-type="background">
-			<div class="container">
+			<div class="container autoDiv">
 				<h2 class="row title">Contact</h2>
-				<article class="col-md-12">
-					<div class="contact_info col-md-9">
+				<article class="col-md-12 autoDiv col_con">
+
+						<div class="col-md-6 contact_left autoDiv">
+							<p class="contact_txtop">
+								Interested in working together?
+							</p>
+							<p class="contact_txbtm">
+								Fill out the form to the right, or email me at <a class= "emailLink" href="mailto:developernick.ninja@gmail.com?Subject=Lets%20do%20this!">DeveloperNick.ninja@gmail.com</a>
+							</p>
+						</div>
+
+
+					<div class="contact_info col-md-6">
 						<h3 class="contact_one">Email DeveloperNick</h3>
+						<div class="col-md-12">
+							<div class="row form input-group">
 
+								<form action="//formspree.io/developernick.ninja@gmail.com" method="POST">
+									<input type="hidden" name="_next" value="//site.io/thanks.html" />
+									<input type="text" name="_gotcha" style="display:none" />
 
-					<div class="row form input-group">
-						<form action="//formspree.io/developernick.ninja@gmail.com" method="POST">
-							<input type="hidden" name="_next" value="//site.io/thanks.html" />
-							<input type="text" name="_gotcha" style="display:none" />
+									<div class="row sender">
+										<input class="nameIn input-lg"type="text" name="name" placeholder="Your Name"/>
+										<input class="senderIn input-lg" type="text" name="_replyto" placeholder="Your Email"/>
+									</div>
 
-							<div class="row sender">
-								<input class="nameIn input-lg"type="text" name="name" placeholder="Your Name"/>
-								<input class="senderIn input-lg" type="text" name="_replyto" placeholder="Your Email"/>
+									<div class="row msg">
+										<textarea id="message" class="messageIn input-lg" name="message" rows="8" cols="60"  placeholder="Your Message"></textarea>
+									</div>
+									<div class="row">
+										<input class="btn btn-lg btn-primary sendbtn" type="submit" value="Send">
+									</div>
+								</form>
+								</div>
 							</div>
-
-							<div class="row msg">
-								<input class="row input-lg messageIn" type="text" name="message" placeholder="Your Message"/>
-								<input class="btn btn-lg btn-primary sendbtn" type="submit" value="Send">
-							</div>
-
-						</form>
-					</div>
-					</div>
+						</div>
 				</article>
 			</div>
 		</section>
