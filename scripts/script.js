@@ -3,7 +3,7 @@ $(document).ready(function(){
   $('#showViz').click(function(e){
     console.log("click click");
     document.getElementById("visualizeit").style.display="block";
-    document.getElementById("mywork").style.display="none";
+
   });
 
    // cache the window object

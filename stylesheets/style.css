@@ -306,13 +306,13 @@ body{
 			margin: 0 auto;
 			font-family: 'Libre Baskerville', serif;
 		}
-		.visualizeit{
+		#visualizeit{
 			height: 100%;
 			width: 100%;
 			z-index: 9999;
 			position: fixed;
-			top: 0;
-			left: 0;
+			top: 250;
+			left: 450;
 		}
 		.well{
 			margin-left: 1em;
@@ -336,10 +336,12 @@ body{
 		}
 		.squawk_pic{
 			background-image: url(http://www.placecage.com/c/320/160);
-			background-size: contain;
-			height:160px;
-			width: 320px;
-			margin-bottom: 1em;
+		}
+		.show{
+			display:block;
+		}
+		.hide{
+			display: none;
 		}
 /*------------------------------------ Contact ------------------------------------*/
 	#contact{
