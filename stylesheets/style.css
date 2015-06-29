@@ -314,6 +314,14 @@ body{
 			top: 250;
 			left: 450;
 		}
+		#trivia{
+			height: 100%;
+			width: 100%;
+			z-index: 9999;
+			position: fixed;
+			top: 250;
+			left: 450;
+		}
 		.well{
 			margin-left: 1em;
 			color: black;

@@ -6,6 +6,12 @@ $(document).ready(function(){
 
   });
 
+  $('#showTriv').click(function(e){
+    console.log("trivia click");
+    document.getElementById("trivia").style.display="block";
+
+  });
+
    // cache the window object
    $window = $(window);
 
@@ -19,7 +25,7 @@ $(document).ready(function(){
         var yPos = -($window.scrollTop() / $scroll.data('speed'));
 
         // background position
-        var coords = '50% '+ yPos + 'px ';
+        var coords = '50%'+ yPos + 'px ';
 
         // move the background
         $scroll.css({ backgroundPosition: coords });
