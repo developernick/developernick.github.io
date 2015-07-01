@@ -160,6 +160,16 @@ body{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	.bblRight{
+		margin: 0 auto;
+		width: 28em;
+		height: 28em;
+		border-radius: 30em;
+		background: white;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
 	.pic1{
 		background-image: url(images/Nick8x10.png);
@@ -190,14 +200,14 @@ body{
 										}
 										/*.pic10{
 											background-image: url(images/board.jpg);
-											}
+											}*/
 											.pic11{
 												background-image: url(images/BobbaFettStreetArt.jpg);
 												background-position-x:-10em;
 												}
 												.pic12{
 													background-image: url(images/Woodstock.jpg);
-													}*/
+													}
 
 													.pic_bottom{
 														margin-top: 1.5em;
@@ -219,12 +229,13 @@ body{
 
 			.skills{
 				font-family: 'Raleway', sans-serif;
-				margin: 9em 0 3em 4.5em;
+				margin: 0 auto;
 				}
 
 				.skills_list{
-					width: 100%;
+					width: 85%;
 					margin: 0 auto;
+					padding: 0;
 					background-color: rgba(74, 84, 84, 0.5);
 					font-size: 25px;
 					font-weight: 100;
@@ -246,8 +257,8 @@ body{
 
 							.skills_images{
 								padding: 0;
-								margin: 0 auto;
-								margin: 9.5em 0 0 0;
+								/*margin: 0 auto;*/
+
 								}
 
 	.fun{
