@@ -306,7 +306,7 @@ body{
 		}
 		.worklinks{
 			display:flex;
-			margin: 0em 2em 0em 2em;
+			margin: 1em 2em 0em 2em;
 			padding: 0;
 		}
 		.wrkbtn{
@@ -348,9 +348,16 @@ body{
 			padding: 0;
 		}
 		.Vispic{
-			background-image: url(images/VisualizeIt.png);
+			height: 12em;
+			width: auto;
+			border-radius: 4px;
+			margin: 0 auto;
 		}
 		.triv_pic{
+			height: 12em;
+			width: auto;
+			margin: 0 auto;
+			border-radius: 4px;
 			background-image: url(images/TriviaBase.png);
 		}
 		.squawk_pic{
@@ -426,3 +433,7 @@ footer{
 	.foot_links{
 	font-family: 'Raleway', sans-serif;
 	}
+/*------------------------------------ LightBox ------------------------------------*/
+#lightboxOverlay{
+	width: 100%; height: 600px; display: block;
+}

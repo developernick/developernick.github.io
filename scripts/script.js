@@ -1,16 +1,21 @@
 $(document).ready(function(){
 
-  $('#showViz').click(function(e){
-    console.log("click click");
-    document.getElementById("visualizeit").style.display="block";
+  // $('#showViz').click(function(e){
+  //   console.log("click click");
+  //   document.getElementById("visualizeit").style.display="block";
+  //
+  // });
+  //
+  // $('#showTriv').click(function(e){
+  //   console.log("trivia click");
+  //   document.getElementById("trivia").style.display="block";
+  //
+  // });
 
-  });
-
-  $('#showTriv').click(function(e){
-    console.log("trivia click");
-    document.getElementById("trivia").style.display="block";
-
-  });
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+    });
 
    // cache the window object
    $window = $(window);
