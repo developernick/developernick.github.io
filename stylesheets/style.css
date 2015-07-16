@@ -12,7 +12,7 @@ font-family: 'Playfair Display', serif;
 
 body{
 	background-color: rgb(74, 84, 84);
-	background: url(images/13.jpg) 100% 25px fixed;
+	/*background: url(images/13.jpg) 100% 25px fixed;*/
 	}
 	.spacer{
 		width: 100%;
@@ -56,22 +56,32 @@ body{
 	  	padding: 1em 0;
 		}
 		#header_image{
+			padding:100px 0;
 			margin: 0 auto;
 			height: 25em;
 			width: 25em;
 			border-radius: 36em;
-			background-image: url(images/Nicpic.jpg);
-			background-size: cover;
+			background-image: url(images/Nick8x10.png);
+			background-size: 120%;
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		}
-		.name{
+		.devnick{
 			font-family: 'Lato', sans-serif;
 			font-weight: 100;
 			font-size: 100px;
 			text-shadow: 2px 2px 3px black;
 			line-height: 1.1em;
 			margin: 0 auto;
-			text-align: center;
+			text-align: left;
+		}
+		.name{
+			font-family: 'Lato', sans-serif;
+			font-weight: 100;
+			font-size: 80px;
+			text-shadow: 2px 2px 3px black;
+			line-height: 1.1em;
+			margin: 0 auto;
+			text-align: left;
 		}
 		.lead{
 			font-family: 'Lato', sans-serif;
@@ -80,10 +90,10 @@ body{
 			line-height: 1.1em;
 			text-shadow: 2px 2px 3px black;
 			margin-left: 10px;
-			text-align: center;
+			text-align: left;
 		}
 		.page-header{
-			padding:10px 0;
+			padding:175px 0;
 			font-family: 'Lato', sans-serif;
 			font-weight: 100;
 		}

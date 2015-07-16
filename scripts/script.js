@@ -12,10 +12,10 @@ $(document).ready(function(){
   //
   // });
 
-    lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-    });
+    // lightbox.option({
+    //   'resizeDuration': 200,
+    //   'wrapAround': true,
+    // });
 
    // cache the window object
    $window = $(window);
