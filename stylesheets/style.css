@@ -48,22 +48,27 @@ body{
 		}
 /*------------------------------------ Header ------------------------------------*/
 	#header{
-		height: 50em;
+		height: auto;
 		margin: 0 auto;
 	  	width: 100%;
 	  	position: relative;
 	  	box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	  	padding: 1em 0;
 		}
 		#header_image{
-			padding:100px 0;
-			margin: 0 auto;
-			height: 25em;
-			width: 25em;
+			z-index: -1;
+			padding: 0;
+			bottom: 9em;
+			right: 9em;
+			float: right;
+			height: 30em;
+			width: 30em;
 			border-radius: 36em;
 			background-image: url(images/Nick8x10.png);
 			background-size: 120%;
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		}
+		.intro{
+			z-index: 999;
 		}
 		.devnick{
 			font-family: 'Lato', sans-serif;
@@ -93,9 +98,11 @@ body{
 			text-align: left;
 		}
 		.page-header{
-			padding:175px 0;
+			height: inherit;
+			padding:15px 0;
 			font-family: 'Lato', sans-serif;
 			font-weight: 100;
+			border: none;
 		}
 		.container{
 			color: rgba(232, 230, 230, 0.75);
@@ -112,10 +119,10 @@ body{
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
 			padding: 1em 0 10em;
 		}
-		.about_space{
+		/*.about_space{
 			width: 100%;
 			height: 5%;
-		}
+		}*/
 		.about_left{
 			padding: 0;
 			margin: 0 auto;
@@ -301,15 +308,27 @@ body{
 						/*padding: 5px 0 1em 2em;*/
 						/*line-height: 2em;*/
 					}
+
+					#scroll_about{
+						margin-bottom: 5em;
+					}
 /*------------------------------------ Work ------------------------------------*/
 	#work{
-		background: url(images/MichAveSouth.jpg) 100% 10px fixed;
-		height: 50em;
+		background: url(images/grey_wood.jpg) 100% 10px fixed;
+		height: 60em;
 		margin: 0 auto;
 			width: 100%;
 			position: relative;
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
 			padding: 5em 0;
+		}
+		.workHeading{
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			font-size: 8em;
+			text-shadow: 2px 2px 3px black;
+			margin: 0 auto;
+			color:deepskyblue;
 		}
 		.work_title{
 			font-family: 'Raleway', sans-serif;
@@ -371,13 +390,12 @@ body{
 			background-image: url(images/TriviaBase.png);
 		}
 		.squawk_pic{
+			height: 12em;
+			width: auto;
+			margin: 0 auto;
+			border-radius: 4px;
+			background-size: cover;
 			background-image: url(http://www.placecage.com/c/320/160);
-		}
-		.show{
-			display:block;
-		}
-		.hide{
-			display: none;
 		}
 /*------------------------------------ Contact ------------------------------------*/
 	#contact{

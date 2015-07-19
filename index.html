@@ -56,20 +56,71 @@
 		<section id="header" data-speed="9" data-type="background">
 			<div class="container">
 				<header class="page-header col-md-12">
-						<div class="col-md-8">
-							<h1 class="row devnick">Developer_Nick</h1>
-							<h3 class="row name">Nick Selesky</h3>
-							<h5 class="row lead">Full-Stack Web Developer</h5>
+						<div class="row">
+							<h1 class="intro devnick">Developer_Nick</h1>
+							<h5 class="name intro">Nick Selesky</h5>
+							<h6 class="lead intro">Full-Stack Web Developer</h6>
 						</div>
 						<div class="col-md-4" id="header_image"  data-speed="8" data-type="background"></div>
-					<div class="col-md-12" id="scroll_about"></div>
+
 				</header> <!-- end header -->
 
 			</div>
 
 		</section>
 
+		<div class="col-md-12" id="scroll_work"></div>
+
+		<section id="work" data-speed="8" data-type="background">
+			<div class="container">
+				<article class="col-md-12">
+					<h2 class="row workHeading">Work</h2>
+						<div class="row mywork">
+
+							<div class="col-md-4 well">
+								<h2 class="work_title">VisualizeIt</h2>
+								<img class=Vispic src="stylesheets/images/VisualizeIt.png"/>
+								<div class="worklinks">
+									<p><a class="btn btn-success wrkbtn" href="http://visualize-it.herokuapp.com/"> VisualizeIt &raquo;</a></p>
+									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/VisualizeIt"> GitHub Repo &raquo;</a></p>
+								</div>
+								<div class="work_text">
+									<p>Using the Web Audio API, and D3 I created a visual representation of the soundwaves around your device. The Web Audio captures the sound input, turns the samples into the data that D3 renders fun designs to an SVG.</p>
+								</div>
+
+							</div><!-- VisualizeIt end -->
+
+							<div class="col-md-4 well">
+								<h2 class="work_title">TriviaBase</h2>
+								<img class="triv_pic" src="stylesheets/images/TriviaBase.png"/>
+								<div class="row worklinks">
+									<p><a class="btn btn-success wrkbtn" href="http://triviabase.herokuapp.com/"> TriviaBase &raquo;</a></p>
+									<p><a class="btn btn-success wrkbtn" href="https://github.com/WDI-Woodstock-Sally/Trivia-App"> GitHub Repo &raquo;</a></p>
+								</div>
+								<div class="work_text">
+									<p>A game based on Bar Trivia. This game however allows you to play anywhere. Plus a Chat Room to talk smack, or cheer on other teams. This app was built with Ruby on Rails, and Firebase</p>
+								</div>
+
+							</div><!-- end TriviaBase -->
+
+							<div class="col-md-4 well">
+								<h2 class="work_title">Squawker</h2>
+								<div class="squawk_pic"></div>
+								<div class="worklinks">
+									<p><a class="btn btn-success wrkbtn" href="/"> Squawker &raquo;</a></p>
+									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/Squawker"> GitHub Repo &raquo;</a></p>
+								</div>
+								<div class="work_text">
+									<p>Recreating the basic functionality of a popular social media site. I think it has something to do with an avian species? Or just the noise it makes.</p>
+								</div>
+							</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
 		<section id="aboutme" data-speed="6" data-type="background">
+			<div class="col-md-12" id="scroll_about"></div>
 			<div class="container autoDiv">
 
 				<article class="col-md-12 autoDiv">
@@ -90,7 +141,7 @@
 							<div class="about_right col-md-6">
 								<div class="autoDiv col-md-12">
 									<div class="row bubble autoDiv">
-										<div class="bbl pic1"></div>
+										<div class="bbl pic12"></div>
 									</div>
 								</div>
 							</div>
@@ -150,7 +201,6 @@
 
 								<div class="about_space col-md-12"></div>
 
-
 							<!-- 4 picture grid -->
 								<!-- <div class="about_images">
 									<div class="row left_col col-md-6">
@@ -185,58 +235,6 @@
 										</div> -->
 
 					</article>
-			</div>
-		</section>
-
-
-		<div class="col-md-12" id="scroll_work"></div>
-
-		<section id="work" data-speed="8" data-type="background">
-			<div class="container">
-				<article class="col-md-12">
-					<h2 class="row title">Work</h2>
-						<div class="row mywork">
-
-							<div class="col-md-4 well">
-								<h2 class="work_title">VisualizeIt</h2>
-								<img class=Vispic src="stylesheets/images/VisualizeIt.png"/>
-								<div class="worklinks">
-									<p><a class="btn btn-success wrkbtn" href="http://visualize-it.herokuapp.com/"> VisualizeIt &raquo;</a></p>
-									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/VisualizeIt"> GitHub Repo &raquo;</a></p>
-								</div>
-								<div class="work_text">
-									<p>Using the Web Audio API, and D3 I created a visual representation of the soundwaves around your device. The Web Audio captures the sound input, turns the samples into the data that D3 renders fun designs to an SVG.</p>
-								</div>
-
-							</div><!-- VisualizeIt end -->
-
-							<div class="col-md-4 well">
-								<h2 class="work_title">TriviaBase</h2>
-								<img class="triv_pic" src="stylesheets/images/TriviaBase.png"/>
-								<div class="row worklinks">
-									<p><a class="btn btn-success wrkbtn" href="http://triviabase.herokuapp.com/"> TriviaBase &raquo;</a></p>
-									<p><a class="btn btn-success wrkbtn" href="https://github.com/WDI-Woodstock-Sally/Trivia-App"> GitHub Repo &raquo;</a></p>
-								</div>
-								<div class="work_text">
-									<p>A game based on Bar Trivia. This game however allows you to play anywhere. Plus a Chat Room to talk smack, or cheer on other teams. This app was built with Ruby on Rails, and Firebase</p>
-								</div>
-
-							</div><!-- end TriviaBase -->
-
-							<!-- <div class="col-md-4 well">
-								<h2 class="work_title">Squawker</h2>
-								<div class="squawk_pic"></div>
-								<div class="worklinks">
-									<p><a class="btn btn-success wrkbtn" href="/"> Squawker &raquo;</a></p>
-									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/Squawker"> GitHub Repo &raquo;</a></p>
-								</div>
-								<div class="work_text">
-									<p>Recreating the basic functionality of a popular social media site. I think it has something to do with an avian species? Or just the noise it makes.</p>
-								</div>
-							</div> -->
-
-					</div>
-				</article>
 			</div>
 		</section>
 
