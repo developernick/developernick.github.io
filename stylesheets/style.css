@@ -164,6 +164,72 @@ body{
 							font-family: 'Lato', sans-serif;
 							font-weight: 200;
 						}
+						.skills{
+							font-family: 'Raleway', sans-serif;
+							margin: 0 auto;
+							}
+
+							.skills_list{
+								width: 85%;
+								margin: 0 auto;
+								padding: 0;
+								color: rgb(199, 233, 236);
+								background-color: rgba(60, 62, 62, 0.65);
+								font-size: 25px;
+								font-weight: 100;
+								border-radius: 1em;
+								}
+								.skillz{
+									list-style-type: none;
+									padding: 0;
+									margin: 0 2em 1em 2em;
+									font-size: 25px;
+									}
+									.list_title{
+										margin:0 1em;
+										padding: 5px;
+										border-bottom: 1px rgb(199, 233, 236) solid;
+										font-weight: 100;
+										font-size: 40px;
+										}
+
+										.skills_images{
+											padding: 0;
+											/*margin: 0 auto;*/
+
+											}
+
+				.fun{
+						font-family: 'Raleway', sans-serif;
+						margin-top: 3em;
+						}
+						.fun_title{
+							margin: 10px 1em 0 1em;
+							padding: 0;
+							border-bottom: 1px rgb(199, 233, 236) solid;
+							font-weight: 100;
+							font-size: 40px;
+							}
+						.fun_list{
+							width: auto;
+							color: rgb(199, 233, 236);
+							background-color: rgba(60, 62, 62, 0.65);
+							font-size: 25px;
+							font-weight: 100;
+							border-radius: 1em;
+							}
+							.fun_images{
+								width: 100%;
+								display: flex;
+								padding: 0;
+								margin: 0;
+								}
+								.fun_ul{
+									/*text-align: center;*/
+									list-style-type: none;
+									/*padding: 5px 0 1em 2em;*/
+									/*line-height: 2em;*/
+								}
 
 .pic{
 	margin: 0 auto;
@@ -199,52 +265,27 @@ body{
 	.pic1{
 		background-image: url(images/Nick8x10.png);
 		}
-		/*.pic2{
-			background-image: url(images/calipic.jpg);
-			}
-			.pic3{
-				background-image: url(images/moonmoon.jpg);
-				}
-				.pic4{
-					background-image: url(images/hawkwedding.jpg);
-					}
-					.pic5{
-						background-image: url(images/buddy.jpg);
-						}
-						.pic6{
-							background-image: url(images/hawks.jpg);
-							}
-							.pic7{
-								background-image: url(images/wrigley.jpg);
-								}
-								.pic8{
-									background-image: url(images/baby.jpg);
-									}*/
-									.pic9{
-										background-image: url(images/BBKing.jpg);
-										}
-										/*.pic10{
-											background-image: url(images/board.jpg);
-											}*/
-											.pic11{
-												background-image: url(images/BobbaFettStreetArt.jpg);
-												background-position-x:-10em;
-												}
-												.pic12{
-													background-image: url(images/Woodstock.jpg);
-													}
-
-													.pic_bottom{
-														margin-top: 1.5em;
-														}
-														.left_col{
-															margin: 0 auto;
-															padding: 0;
-															}
-															.right_col{
-																margin: 0 auto;
-																padding: 0;
-																}
+		.pic9{
+			background-image: url(images/BBKing.jpg);
+		}
+		.pic11{
+			background-image: url(images/BobbaFettStreetArt.jpg);
+			background-position-x:-10em;
+		}
+		.pic12{
+			background-image: url(images/Woodstock.jpg);
+		}
+		.pic_bottom{
+			margin-top: 1.5em;
+		}
+		.left_col{
+			margin: 0 auto;
+			padding: 0;
+		}
+		.right_col{
+			margin: 0 auto;
+			padding: 0;
+		}
 
 	.about_images{
 		width: 100%;
@@ -252,72 +293,6 @@ body{
 		margin: 0 auto;
 		}
 
-			.skills{
-				font-family: 'Raleway', sans-serif;
-				margin: 0 auto;
-				}
-
-				.skills_list{
-					width: 85%;
-					margin: 0 auto;
-					padding: 0;
-					color: rgb(199, 233, 236);
-					background-color: rgba(60, 62, 62, 0.65);
-					font-size: 25px;
-					font-weight: 100;
-					border-radius: 1em;
-					}
-					.skillz{
-						list-style-type: none;
-						padding: 0;
-						margin: 0 2em 1em 2em;
-						font-size: 25px;
-						}
-						.list_title{
-							margin:0 1em;
-							padding: 5px;
-							border-bottom: 1px rgb(199, 233, 236) solid;
-							font-weight: 100;
-							font-size: 40px;
-							}
-
-							.skills_images{
-								padding: 0;
-								/*margin: 0 auto;*/
-
-								}
-
-	.fun{
-			font-family: 'Raleway', sans-serif;
-			margin-top: 3em;
-			}
-			.fun_title{
-				margin: 10px 1em 0 1em;
-				padding: 0;
-				border-bottom: 1px rgb(199, 233, 236) solid;
-				font-weight: 100;
-				font-size: 40px;
-				}
-			.fun_list{
-				width: auto;
-				color: rgb(199, 233, 236);
-				background-color: rgba(60, 62, 62, 0.65);
-				font-size: 25px;
-				font-weight: 100;
-				border-radius: 1em;
-				}
-				.fun_images{
-					width: 100%;
-					display: flex;
-					padding: 0;
-					margin: 0;
-					}
-					.fun_ul{
-						/*text-align: center;*/
-						list-style-type: none;
-						/*padding: 5px 0 1em 2em;*/
-						/*line-height: 2em;*/
-					}
 
 					#scroll_about{
 						margin-bottom: 5em;
