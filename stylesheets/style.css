@@ -90,6 +90,7 @@ body{
 			line-height: 1.1em;
 			margin: 0 auto;
 			text-align: left;
+			color: deepskyblue;
 		}
 		.lead{
 			font-family: 'Lato', sans-serif;
@@ -99,6 +100,7 @@ body{
 			text-shadow: 2px 2px 3px black;
 			margin-left: 10px;
 			text-align: left;
+			color: deepskyblue;
 		}
 		.page-header{
 			height: inherit;
