@@ -54,7 +54,7 @@ body{
 		width: 100%;
 		margin: 0 auto;
 	  position: relative;
-			background: url(images/grey-background.jpg) 100% 10px fixed;
+			background: url(images/Grey-background.jpg) 100% 10px fixed;
 			background-size: cover;
 	  	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		}
@@ -196,7 +196,6 @@ body{
 										.skills_images{
 											padding: 0;
 											/*margin: 0 auto;*/
-
 											}
 
 				.fun{
@@ -408,7 +407,7 @@ body{
 		input, textarea{
 			color: ghostwhite;
 			background-color: initial;
- 
+
 		}
 		#message{
 			margin: 10px 0;
