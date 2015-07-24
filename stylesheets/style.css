@@ -405,23 +405,16 @@ body{
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
 			padding: 5em 0 0 0;
 		}
-
-		#message{
-			margin: 0 auto;
+		input, textarea{
+			color: ghostwhite;
+			background-color: initial;
+ 
 		}
-		.msg, .sender{
-			display: flex;
-			margin: 0 auto;
-			padding: 1em;
+		#message{
+			margin: 10px 0;
 		}
 		.form{
 			margin: 0 auto;
-		}
-		.nameIn{
-			width: 14em;
-		}
-		.senderIn{
-			width: 22em;
 		}
 		.contact_info{
 			font-family: 'Lato', sans-serif;
@@ -430,10 +423,12 @@ body{
 			background-color: rgba(74, 84, 84, 0.8);
 		}
 		.contact_one{
-			border-bottom: 1px white solid;
+			border-bottom: 1px rgb(199, 233, 236) solid;
 			font-size: 2em;
 			font-family: 'Lato', sans-serif;
 			font-weight: 100;
+			color: rgb(199, 233, 236);
+
 		}
 		.contact_left{
 			text-align: center;
@@ -442,7 +437,7 @@ body{
 			font-weight: 100;
 			text-shadow: 2px 2px 3px black;
 		}
-		.sendbtn{float: right;}
+		.sendbtn{float: right; background-color: #807979; border-color: #5F5F5F;}
 
 		.emailLink{
 			color: rgb(51, 122, 183);
