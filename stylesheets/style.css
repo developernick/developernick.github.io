@@ -54,7 +54,7 @@ body{
 		width: 100%;
 		margin: 0 auto;
 	  position: relative;
-			background: url(images/Grey-background.jpg) 100% 10px fixed;
+			background: url(images/Grey-background.jpg) 90% 10px fixed;
 			background-size: cover;
 	  	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		}
@@ -118,13 +118,15 @@ body{
 
 /*------------------------------------ About Me ------------------------------------*/
 	#aboutme{
-		background: url(images/faders.jpg) 70% 20px fixed;
+		background: url(images/faders.jpg) 70% 20em fixed;
 		height: auto;
 		margin: 0 auto;
 			width: 100%;
-			position: relative;
+			height: auto;
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
 			padding: 1em 0 10em;
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
 		.about_space{
 			width: 100%;
@@ -247,11 +249,10 @@ body{
 	background: white;
 	}
 	.bbl{
-		margin: 5em auto;
+		margin-top: 3em;
 		width: 28em;
 		height: 28em;
-		border-radius: 30em;
-		background: white;
+		border-radius: 36em;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -260,11 +261,9 @@ body{
 		margin: 0 auto;
 		width: 28em;
 		height: 28em;
-		border-radius: 30em;
-		background: white;
+		border-radius: 36em;
 		box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		background-repeat: no-repeat;
-		background-size: cover;
 	}
 
 	.pic1{
@@ -275,7 +274,9 @@ body{
 		}
 		.pic11{
 			background-image: url(images/BobbaFettStreetArt.jpg);
-			background-position-x:-10em;
+			background-position-x: -19em;
+			background-position-y: -2em;
+			background-size: 183%;
 		}
 		.pic12{
 			background-image: url(images/Woodstock.jpg);
