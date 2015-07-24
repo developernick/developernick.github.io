@@ -8,6 +8,7 @@ font-family: 'Unica One', cursive;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Playfair Display', serif;
 */
+
 /*--- ****Page**** ---*/
 
 body{
@@ -19,34 +20,34 @@ body{
 		height: 10em;
 	}
 
-	/*--- Nav Bar ---*/
+/*--- Nav Bar ---*/
 	.navbar{
 		font-family: 'Raleway', sans-serif;
 		font-weight: 100;
-	}
-	.navbar-brand{
-		font-size: 30px;
-	}
-	.links{
-		text-align: center;
-		font-size: 25px;
-		margin-left: 15px;
-	}
-	.icons{
-		float: right;
-	}
-	.title{
-		color: deepskyblue;
-		font-family: 'Raleway', sans-serif;
-		font-weight: 100;
-		font-size: 8em;
-		text-shadow: 2px 2px 3px black;
-		margin: 0 auto;
-	}
-	.autoDiv{
-		padding: 0;
-		margin: 0 auto;
 		}
+		.navbar-brand{
+			font-size: 30px;
+		}
+		.links{
+			text-align: center;
+			font-size: 25px;
+			margin-left: 15px;
+		}
+		.icons{
+			float: right;
+		}
+		.title{
+			color: deepskyblue;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			font-size: 8em;
+			text-shadow: 2px 2px 3px black;
+			margin: 0 auto;
+		}
+		.autoDiv{
+			padding: 0;
+			margin: 0 auto;
+			}
 /*------------------------------------ Header ------------------------------------*/
 	#header{
 		height: auto;
@@ -81,6 +82,7 @@ body{
 			line-height: 1.1em;
 			margin: 0 auto;
 			text-align: left;
+			color: deepskyblue;
 		}
 		.name{
 			font-family: 'Lato', sans-serif;
@@ -90,7 +92,7 @@ body{
 			line-height: 1.1em;
 			margin: 0 auto;
 			text-align: left;
-			color: deepskyblue;
+    	color: #83ADBB;
 		}
 		.lead{
 			font-family: 'Lato', sans-serif;
@@ -100,7 +102,7 @@ body{
 			text-shadow: 2px 2px 3px black;
 			margin-left: 10px;
 			text-align: left;
-			color: deepskyblue;
+    	color: #83ADBB;
 		}
 		.page-header{
 			height: inherit;
@@ -139,7 +141,8 @@ body{
 		.text{
 			width: 100%;
 			height: auto;
-			background-color: rgba(74, 84, 84, 0.8);
+			color: rgb(199, 233, 236);
+			background-color: rgba(60, 62, 62, 0.65);
 			padding: 1em;
 			border-radius: 10px;
 			box-shadow: 0 0 20px rgba(0,0,0,0.7);
@@ -147,7 +150,7 @@ body{
 				.line1{
 					font-family: 'Lato', sans-serif;
 					font-weight: 100;
-					color: rgb(174, 172, 172);
+
 					font-size: 2.5em;
 					text-align: center;
 				}
@@ -258,7 +261,8 @@ body{
 					width: 85%;
 					margin: 0 auto;
 					padding: 0;
-					background-color: rgba(74, 84, 84, 0.5);
+					color: rgb(199, 233, 236);
+					background-color: rgba(60, 62, 62, 0.65);
 					font-size: 25px;
 					font-weight: 100;
 					border-radius: 1em;
@@ -272,7 +276,7 @@ body{
 						.list_title{
 							margin:0 1em;
 							padding: 5px;
-							border-bottom: 1px white solid;
+							border-bottom: 1px rgb(199, 233, 236) solid;
 							font-weight: 100;
 							font-size: 40px;
 							}
@@ -290,13 +294,14 @@ body{
 			.fun_title{
 				margin: 10px 1em 0 1em;
 				padding: 0;
-				border-bottom: 1px white solid;
+				border-bottom: 1px rgb(199, 233, 236) solid;
 				font-weight: 100;
 				font-size: 40px;
 				}
 			.fun_list{
 				width: auto;
-				background-color: rgba(74, 84, 84, 0.8);
+				color: rgb(199, 233, 236);
+				background-color: rgba(60, 62, 62, 0.65);
 				font-size: 25px;
 				font-weight: 100;
 				border-radius: 1em;
@@ -436,8 +441,6 @@ body{
 		}
 		.form{
 			margin: 0 auto;
-			color: black;
-			display: flex;
 		}
 		.nameIn{
 			width: 14em;
@@ -483,3 +486,20 @@ footer{
 #lightboxOverlay{
 	width: 100%; height: 600px; display: block;
 }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
