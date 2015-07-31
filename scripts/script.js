@@ -1,21 +1,5 @@
 $(document).ready(function(){
 
-  // $('#showViz').click(function(e){
-  //   console.log("click click");
-  //   document.getElementById("visualizeit").style.display="block";
-  //
-  // });
-  //
-  // $('#showTriv').click(function(e){
-  //   console.log("trivia click");
-  //   document.getElementById("trivia").style.display="block";
-  //
-  // });
-
-    // lightbox.option({
-    //   'resizeDuration': 200,
-    //   'wrapAround': true,
-    // });
 
    // cache the window object
    $window = $(window);
@@ -39,6 +23,21 @@ $(document).ready(function(){
 
 
 }); // close out script
+
+// jQuery to scroll down page when click link
+
+$(document).ready(function() {
+  $('a[href^="#"]').on('click', function (e) {
+    e.preventDefault();
+
+    var target = this.hash;
+    var $target = $(target);
+
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 1200, 'swing');
+  });
+});
 
 /* Create HTML5 element for IE */
 document.createElement("section");
