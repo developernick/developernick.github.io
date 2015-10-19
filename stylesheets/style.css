@@ -9,8 +9,14 @@ body{
 		width: 100%;
 		height: 10em;
 	}
+	.container{
+		color: rgba(232, 230, 230, 0.75);
+		margin: 0 auto;
+		padding: 0;
+		/*border: 2px dashed grey;*/
+	}
 
-/*--- Nav Bar ---*/
+	/*--- Nav Bar ---*/
 	.navbar{
 		font-family: 'Raleway', sans-serif;
 		font-weight: 100;
@@ -101,10 +107,7 @@ body{
 			font-weight: 100;
 			border: none;
 		}
-		.container{
-			color: rgba(232, 230, 230, 0.75);
-			/*border: 2px dashed grey;*/
-		}
+
 
 /*------------------------------------ About Me ------------------------------------*/
 	#aboutme{
@@ -296,25 +299,26 @@ body{
 /*------------------------------------ Work ------------------------------------*/
 	#work{
 		background: url(images/grey_wood.jpg) 100% 10px fixed;
-		height: 60em;
+		height: auto;
 		margin: 0 auto;
 			width: 100%;
 			position: relative;
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
-			padding: 5em 0;
+			padding: 0;
 		}
 		.workHeading{
 			font-family: 'Raleway', sans-serif;
 			font-weight: 100;
 			font-size: 8em;
 			text-shadow: 2px 2px 3px black;
-			margin: 0 auto;
+			margin-top: 6rem;
 			color:deepskyblue;
 		}
 		.work_title{
 			font-family: 'Raleway', sans-serif;
 			  text-shadow: 2px 2px 3px rgb(121, 118, 118);
 				font-weight: 300;
+				margin-top: 2px;
 		}
 		.worklinks{
 			display:flex;
@@ -322,6 +326,7 @@ body{
 			padding: 0;
 		}
 		.wrkbtn{
+			font-family: 'Libre Baskerville', serif;
 			margin: 0 3em 0 0;
 			color: #EAE9E9;
   		background-color: #807979;
@@ -332,30 +337,30 @@ body{
 			margin: 0 auto;
 			font-family: 'Libre Baskerville', serif;
 		}
-		#visualizeit{
-			height: 100%;
-			width: 100%;
-			z-index: 9999;
-			position: fixed;
-			top: 250;
-			left: 450;
-		}
-		#trivia{
-			height: 100%;
-			width: 100%;
-			z-index: 9999;
-			position: fixed;
-			top: 250;
-			left: 450;
-		}
+			/*#visualizeit{
+				height: 100%;
+				width: 100%;
+				z-index: 9999;
+				position: fixed;
+				top: 20;
+				left: 40;
+			}
+			#trivia{
+				height: 100%;
+				width: 100%;
+				z-index: 9999;
+				position: fixed;
+				top: 20;
+				left: 40;
+				}*/
 		.well{
 			margin-left: 1em;
 			color: black;
-			height: auto;
+			height: 45rem;
 			width: 25em;
 			padding: 1em;
 			background-color: #9B9B9B;
-			  border: 1px solid #807979;
+			  border: 1px solid #2B2B2B;
 				box-shadow: 0 0 50px rgba(0,0,0,0.8);
 					-webkit-box-shadow: inset 0px -1px 295px 23px rgba(0,0,0,0.39);
 					-moz-box-shadow: inset 0px -1px 295px 23px rgba(0,0,0,0.39);
@@ -382,6 +387,33 @@ body{
 			border-radius: 4px;
 			background-image: url(images/TriviaBase.png);
 			box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		}
+		.wal_pic{
+		height: 12em;
+		width: auto;
+		margin: 0 auto;
+		border-radius: 4px;
+		background-image: url(images/walpic.png);
+		background-size: cover;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		}
+		.cdmacpic{
+		height: 12em;
+		width: auto;
+		margin: 0 auto;
+		border-radius: 4px;
+		background-image: url(images/cdmac.png);
+		background-size: cover;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
+		}
+		.fillmurray{
+		height: 12em;
+		width: auto;
+		margin: 0 auto;
+		border-radius: 4px;
+		background-image: url("http://www.fillmurray.com/320/168");
+		background-size: cover;
+		box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		}
 		.squawk_pic{
 			height: 12em;

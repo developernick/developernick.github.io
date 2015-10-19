@@ -26,13 +26,13 @@
 
 	<body>
 		<!-- Google Tag Manager -->
-		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NG7RHX"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-NG7RHX');</script>
+			<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NG7RHX"
+				height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+				<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-NG7RHX');</script>
 		<!-- End Google Tag Manager -->
 		<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -48,7 +48,7 @@
 		<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
 			<div class="container-liquid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#scrollTopy">
+					<a class="navbar-brand" href="#scrollTop">
 						<span class="glyphicon glyphicon-sunglasses"></span>
 					</a>
 					<a class="navbar-brand" href="#scrollTop">Developer_Nick</a>
@@ -95,47 +95,93 @@
 				<article class="col-md-12">
 					<h2 class="row workHeading">Work</h2>
 					<div class="about_space col-md-12"></div>
+
 						<div class="row mywork">
+							<div class="container">
 
-							<div class="col-md-4 well works">
-								<h2 class="work_title">VisualizeIt</h2>
-								<img class=Vispic src="stylesheets/images/VisualizeIt.png"/>
-								<div class="worklinks">
-									<p><a class="btn btn-success wrkbtn" href="http://visualize-it.herokuapp.com/"> VisualizeIt &raquo;</a></p>
-									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/VisualizeIt"> GitHub Repo &raquo;</a></p>
-								</div>
-								<div class="work_text">
-									<p>Using the Web Audio API, and D3 I created a visual representation of the soundwaves around your device. The Web Audio captures the sound input, turns the samples into the data that D3 renders fun designs to an SVG.</p>
-								</div>
 
-							</div><!-- VisualizeIt end -->
+								<div id="visualizeit"class="col-md-4 well works"><!-- VisualizeIt -->
+									<h2 class="work_title">VisualizeIt</h2>
+									<img class=Vispic src="stylesheets/images/VisualizeIt.png"/>
+									<div class="worklinks">
+										<p><a class="btn btn-success wrkbtn" href="http://visualize-it.herokuapp.com/"> 	VisualizeIt &raquo;</a></p>
+										<p><a class="btn btn-success wrkbtn" 	href="https://github.com/developernick/VisualizeIt"> GitHub Repo &raquo;</a></p>
+									</div>
+									<div class="work_text">
+										<p>Using the Web Audio API, and D3 I created a visual representation of the 	soundwaves around your device. The Web Audio captures the sound input, turns the 	samples into the data that D3 renders fun designs to an SVG.</p>
+									</div>
 
-							<div class="col-md-4 well works">
-								<h2 class="work_title">TriviaBase</h2>
-								<img class="triv_pic" src="stylesheets/images/TriviaBase.png"/>
-								<div class="row worklinks">
-									<p><a class="btn btn-success wrkbtn" href="http://triviabase.herokuapp.com/"> TriviaBase &raquo;</a></p>
-									<p><a class="btn btn-success wrkbtn" href="https://github.com/WDI-Woodstock-Sally/Trivia-App"> GitHub Repo &raquo;</a></p>
-								</div>
-								<div class="work_text">
-									<p>A game based on Bar Trivia. This game however allows you to play anywhere. Plus a Chat Room to talk smack, or cheer on other teams. This app was built with Ruby on Rails, and Firebase</p>
-								</div>
+								</div><!-- VisualizeIt end -->
 
-							</div><!-- end TriviaBase -->
+								<div id="trivia" class="col-md-4 well works"><!-- TriviaBase -->
+									<h2 class="work_title">TriviaBase</h2>
+									<img class="triv_pic" src="stylesheets/images/TriviaBase.png"/>
+									<div class="row worklinks">
+										<p><a class="btn btn-success wrkbtn" href="http://triviabase.herokuapp.com/"> 	TriviaBase &raquo;</a></p>
+										<p><a class="btn btn-success wrkbtn" 	href="https://github.com/WDI-Woodstock-Sally/Trivia-App"> GitHub Repo 	&raquo;</a></p>
+									</div>
+									<div class="work_text">
+										<p>A game based on Bar Trivia. This game however allows you to play anywhere. Plus 	a Chat Room to talk smack, or cheer on other teams. This app was built with Ruby 	on Rails, and Firebase</p>
+									</div>
 
-							<div class="col-md-4 well works">
-								<h2 class="work_title">Squawker</h2>
-								<div class="squawk_pic"></div>
-								<div class="worklinks">
-									<p><a class="btn btn-success wrkbtn" href="/"> Squawker &raquo;</a></p>
-									<p><a class="btn btn-success wrkbtn" href="https://github.com/developernick/Squawker"> GitHub Repo &raquo;</a></p>
-								</div>
-								<div class="work_text">
-									 <p>(Work In Progress)</p>
-									<p>Recreating the basic functionality of a popular social media site. I think it has something to do with an avian species? Or just the noise it makes.</p>
+								</div><!-- end TriviaBase -->
+
+								<div class="col-md-4 well works"><!-- We Are Lions -->
+									<h2 class="work_title">We Are Lions</h2>
+									<div class="wal_pic"></div>
+									<div class="worklinks">
+										<p><a class="btn btn-success wrkbtn" href="https://www.wearelions.org/"> We Are Lions &raquo;</a></p>
+									</div>
+									<div class="work_text">
+										<p>A pre-existing Website. My responsibilites include website maintenance, including adding, removing, and changing features in order to enhance user experience. WordPress, HTML, CSS, Javascript, JQuery, and PHP.</p>
+									</div>
+								</div><!-- end We Are Lions -->
+
+							</div>
+						</div><!-- end first row -->
+
+							<div class="row mywork">
+								<div class="container">
+
+									<div class="col-md-4 well works">
+										<h2 class="work_title">C.D.Macbain</h2>
+										<div class="cdmacpic"></div>
+										<div class="worklinks">
+											<p><a class="btn btn-success wrkbtn" href="https://moqups.com/developernick/sKcOvhK1/p:a2d2dd4fe"> Mock Up &raquo;</a></p>
+											<p><a class="btn btn-success wrkbtn" 	href="https://github.com/developernick"> GitHub Repo &raquo;</a></p>
+										</div>
+										<div class="work_text">
+										 	<p>(Work In Progress)</p>
+											<p>Creating website for business to market services using HTML, CSS, JavaScript, Bootstrap, and Ruby in Rails</p>
+										</div>
+									</div>
+
+									<div class="col-md-4 well works">
+										<h2 class="work_title">Squawker</h2>
+										<div class="squawk_pic"></div>
+										<div class="worklinks">
+											<p><a class="btn btn-success wrkbtn" href="/"> Squawker &raquo;</a></p>
+											<p><a class="btn btn-success wrkbtn" 	href="https://github.com/developernick/Squawker"> GitHub Repo &raquo;</a></p>
+										</div>
+										<div class="work_text">
+										 	<p>(Work In Progress)</p>
+											<p>Recreating the basic functionality of a popular social media site for fun. I think it 	has something to do with an avian species? Or just the noise it makes.</p>
+										</div>
+									</div>
+
+									<div class="col-md-4 well works">
+										<h2 class="work_title">Bill Murray</h2>
+										<div class="fillmurray"></div>
+										<div class="worklinks">
+											<p><a class="btn btn-success wrkbtn" href="http://www.fillmurray.com/"> Fill Murray &raquo;</a></p>
+										</div>
+										<div class="work_text">
+											<p>I can't leave the grid uneven. It will drive me crazy. So heres a random picture of Bill Murray! You're Welcome.</p>
+										</div>
+									</div>
+
 								</div>
 							</div>
-					</div>
 				</article>
 			</div>
 		</section>
