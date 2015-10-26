@@ -58,10 +58,10 @@ body{
 			z-index: 	1;
 			padding: 0;
 			bottom: 9em;
-			right: 9em;
-			float: right;
-			height: 30em;
-			width: 30em;
+			/*right: 9em;*/
+			/*float: right;*/
+			height: 45rem;
+			width: 45rem;
 			border-radius: 36em;
 			background-image: url(images/Nick8x10.png);
 			background-size: 120%;
